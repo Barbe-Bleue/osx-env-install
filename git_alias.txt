@@ -1,0 +1,59 @@
+[color]
+	status = auto
+	diff = auto
+	ui = auto
+[push]
+	default = current
+[alias]
+	st = status
+	cp = cherry-pick
+	ready = rebase -i @{u}
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Ccyan\\ [%cn]" --decorate
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lt = log -n 5 --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Ccyan\\ [%cn]" --decorate --numstat
+	lnc = log --pretty=format:"%h\\ %s\\ [%cn]"
+	lds = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Ccyan\\ [%cn]" --decorate --date=short
+	ld = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Ccyan\\ [%cn]" --decorate --date=relative
+	le = log --oneline --decorate
+	dr  = "!f() { git diff "$1"^.."$1"; }; f"
+	lc  = "!f() { git ll "$1"^.."$1"; }; f"
+	diffr  = "!f() { git diff "$1"^.."$1"; }; f"
+	standup = log --since yesterday
+	co = checkout
+	cl = clone
+	ci = commit
+	pu = push
+	br = branch
+	cm = commit -m
+	sl = stash list
+	sa = stash apply
+	ss = stash save
+	sp = stash pop
+	s = stash
+	master = checkout master
+	ignore = !([ ! -e .gitignore ] && touch .gitignore) | echo $1 >>.gitignore
+	done = "!f() { git branch | grep "$1" | cut -c 3- | grep -v done | xargs -I{} git branch -m {} done-{}; }; f"
+	chmod = config core.fileMode
+	#up = pull --rebase
+
+	# Set Upstream  =====
+	su  = "!git branch -u origin/\"$(git rev-parse --abbrev-ref HEAD)\""
+	
+	# Push branch =====
+	pb  = "!git push origin \"$(git rev-parse --abbrev-ref HEAD)\""
+	
+	# pull upstream =====
+	up  = "!git pull --rebase origin \"$(git rev-parse --abbrev-ref HEAD)\""
+
+[core]
+	editor = vi
+[credential]
+	helper = cache
+[filter "lfs"]
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+[commit]
+	gpgsign = false

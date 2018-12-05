@@ -1,0 +1,105 @@
+#!/bin/bash
+BASIC_PACKAGES=(
+	cask
+	htop 
+	curl 
+	ncdu 
+	wget 
+	bash-completion 
+	screenfetch 
+	imagesnap 
+	ffmpeg 
+	youtube-dl 
+	exa 
+	mas
+	mps-youtube
+)
+
+DEV_PACKAGES=(
+	yarn 
+	composer 
+	git 
+	gpg 
+	npm
+)
+
+FUN_PACKAGES=(
+	cmatrix 
+	cowsay 
+	fortune 
+	asciiquarium 
+	toilet 
+	lolcat 
+	sl
+)
+
+BASIC_CASKS=(
+  appcleaner 
+	macdown 
+	copyq 
+	iina 
+	spectacle
+)
+
+DEV_CASKS=(
+  atom 
+	visual-studio-code 
+	sequel-pro 
+	mongodb-compass-community 
+	postman 
+	coteditor
+	iterm2 
+	hyper 
+	upterm
+)
+
+OTHER_CASKS=(
+	min
+	slack
+)
+
+ATOM_PACKAGE=(
+	atom-clock 
+	platformio-ide-terminal 
+	atom-beautify 
+	file-icons 
+	pigments 
+	color-picker 
+	atom-symfony2 
+	highlight-selected 
+	language-generic-config 
+	php-twig 
+	atom-typescript 
+	react 
+	autoclose-html
+)
+
+YARN_PACKAGE=(
+	create-react-app 
+	fkill-cli
+	tldr
+	coinmon
+	vtop
+	nativefier
+	ytdl
+	open-pip
+	weather-cli
+)
+
+BLACK='\033[0;30m'
+RED='\033[0;31m'
+GREEN='\033[0;32m'
+ORANGE='\033[0;33m'
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
+CYAN='\033[0;36m'
+LIGHT_GRAY='\033[0;37m'
+DARK_GRAY='\033[1;30m'
+LIGHT_RED='\033[1;31m'
+LIGHT_GREEN='\033[1;32m'
+YELLOW='\033[1;33m'
+LIGHT_BLUE='\033[1;34m'
+LIGHT_PURPLE='\033[1;35m'
+LIGHT_CYAN='\033[1;36m'
+WHITE='\033[1;37m'
+NC='\033[0m'
