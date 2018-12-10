@@ -1,3 +1,27 @@
+function brew_install () {
+	local LIST_PACKAGE=("$@")
+	
+	tLen=${#LIST_PACKAGE[@]}
+
+	TO_INSTALL=()
+	for (( i=0; i<${tLen}; i++ ));
+	do
+		read -r -p "$(echo -e Install ${BLUE}${LIST_PACKAGE[$i]}${NC} ? [press enter])" input
+		case $input in
+			[yY][eE][sS]|[yY]|'')
+				echo -e "Add ${GREEN}${LIST_PACKAGE[$i]}...${NC}\n"
+				TO_INSTALL+=( "${LIST_PACKAGE[$i]}" )
+			;;
+			[nN]][oO]|[nN])
+				echo -e "Remove ${RED}${LIST_PACKAGE[$i]}...${NC}\n"
+			;;
+		esac
+	done
+	echo -e "${GREEN}Installing the following formules ${NC}"
+	echo -e "${ORANGE}${TO_INSTALL[@]}${NC}\n"
+	brew install ${TO_INSTALL[@]} 
+}
+
 function brew_cask_install () {
 	local LIST_APP=("$@")
 	
@@ -7,6 +31,7 @@ function brew_cask_install () {
 	
 	#echo -e "${CYAN}Here are the cask app for LIST_APP !${NC}"
 	#echo -e "${PURPLE}${LIST_APP[@]}${NC}\n"
+	
 	for (( i=0; i<${tLen}; i++ ));
 	do
 		read -r -p "$(echo -e Install ${BLUE}${LIST_APP[$i]}${NC} ? [press enter])" input
