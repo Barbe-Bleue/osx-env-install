@@ -40,9 +40,7 @@ echo -e "${PURPLE}${BASIC_PACKAGES[@]}${NC}\n"
 read -r -p "$(echo -e Do you want ${RED}BASIC_PACKAGES${NC} ? [press ennter]) " input
 case $input in
 	[yY][eE][sS]|[yY]|'')
-		echo -e "${GREEN}Install BASIC packages...${NC}"
-		echo -e "${ORANGE}${BASIC_PACKAGES[@]}${NC}\n"
-		brew install ${BASIC_PACKAGES[@]}
+		brew_install ${BASIC_PACKAGES[@]}
 	;;
 esac
 
@@ -52,9 +50,7 @@ echo -e "${PURPLE}${DEV_PACKAGES[@]}${NC}\n"
 read -r -p "$(echo -e Do you want ${RED}DEV_PACKAGES${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
-		echo -e "${GREEN}Install DEV packages...${NC}"
-		echo -e "${ORANGE}${DEV_PACKAGES[@]}${NC}\n"
-		brew install ${DEV_PACKAGES[@]}
+		brew_install ${DEV_PACKAGES[@]}
 	;;
 esac
 
@@ -64,9 +60,7 @@ echo -e "${PURPLE}${FUN_PACKAGES[@]}${NC}\n"
 read -r -p "$(echo -e Do you want ${RED}FUN_PACKAGES${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
-		echo -e "${GREEN}Install FUN packages...${NC}"
-		echo -e "${ORANGE}${FUN_PACKAGES[@]}${NC}\n"
-		brew install ${FUN_PACKAGES[@]}
+		brew_install ${FUN_PACKAGES[@]}
 	;;
 esac
 
@@ -151,7 +145,7 @@ read -r -p "$(echo -e Create ${GREEN}~/Sites/${NC} folder ? [press enter])" inpu
 case $input in
 	[yY][eE][sS]|[yY]|'')
 		echo -e "Create {GREEN}~/Sites${NC} folder OSX...\n"
- 		mkdir ~/Sites
+ 		#mkdir ~/Sites
  	;;
 esac
 
@@ -165,13 +159,13 @@ if test $(which git); then
 			read -r -p "$(echo -e Your github ${RED}pseudo${NC} ? )" input
 			if [ "$input" != "" ]; then
 				echo -e "${GREEN}$input${NC}\n"
-		   	git config --global user.name "$input"
+		   	#git config --global user.name "$input"
 			fi
 			
 			read -r -p "$(echo -e Your github ${RED}email${NC} ? )" input
 			if [ "$input" != "" ]; then
 				echo -e "${GREEN}$input${NC}\n"
-		   	git config --global user.email "$input"
+		   	#git config --global user.email "$input"
 			fi
 	 	;;
 	esac
@@ -180,7 +174,7 @@ if test $(which git); then
 	case $input in
 		[yY][eE][sS]|[yY]|'')
 			echo -e "${GREEN}Add git alias...{NC}\n"
-	 		echo "$(cat alias_git.txt)" >> ~/.gitconfig
+	 		#echo "$(cat alias_git.txt)" >> ~/.gitconfig
 	 	;;
 	esac
 fi
