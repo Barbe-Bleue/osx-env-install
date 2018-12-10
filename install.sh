@@ -14,7 +14,7 @@ if test ! $(which brew); then
 fi
 
 # update homebrew
-echo -e "${GREEN}Ppdate homebrew...${NC}"
+echo -e "${GREEN}Update homebrew...${NC}"
 brew update
 
 # cask and mas
