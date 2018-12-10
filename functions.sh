@@ -1,4 +1,4 @@
-function brew_install () {
+function brew_cask_install () {
 	local LIST_APP=("$@")
 	
 	tLen=${#LIST_APP[@]}
