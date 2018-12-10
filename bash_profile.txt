@@ -157,6 +157,11 @@ convertToMp4 () {
   ffmpeg -i "$1" -c:a aac -b:a 128k -c:v libx264 -crf 23 "$1".mp4
 }
 
+## move something to the trash
+del() {
+  mv $@ ~/.Trash
+}
+
 ## peut tout extraire
 extract () {
 if [ -f $1 ] ; then
