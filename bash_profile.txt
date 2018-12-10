@@ -65,6 +65,8 @@ alias install-keeper="cd; git clone https://github.com/ardagedikk/keeper.git; cd
 alias install-osxcputemp="cd; git clone https://github.com/lavoiesl/osx-cpu-temp.git; cd osx-cpu-temp; sudo make install; cd; rm -rf osx-cpu-temp"
 alias install-mongo="cd; wget http://downloads.mongodb.org/osx/mongodb-osx-x86_64-3.4.17.tgz"
 alias install-freetube="cd; git clone https://github.com/FreeTubeApp/FreeTube.git; cd FreeTube; yarn install; yarn make:mac; cp -r out/FreeTube-darwin-x64/FreeTube.app /Applications; cd; rm -rf FreeTube"
+alias install-tetris="cd;curl -L https://github.com/samtay/tetris/releases/download/0.1.2/tetris-`uname -s`-`uname -m` -o tetris; chmod +x tetris;sudo mv tetris /usr/local/bin/"
+
 
 # apps launcher
 ## terminal du futur
