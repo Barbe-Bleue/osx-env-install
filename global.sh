@@ -84,6 +84,8 @@ YARN_PACKAGE=(
 	ytdl
 	open-pip
 	weather-cli
+	battleship-game
+	mastermind-game 
 )
 
 BLACK='\033[0;30m'
