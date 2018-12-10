@@ -79,7 +79,7 @@ echo -e "${PURPLE}${BASIC_CASKS[@]}${NC}\n"
 read -r -p "$(echo -e Do you want ${RED}BASIC_CASKS${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
-		brew_install ${BASIC_CASKS[@]}
+		brew_cask_install ${BASIC_CASKS[@]}
 	;;
 esac
 
@@ -88,7 +88,7 @@ echo -e "${PURPLE}${DEV_CASKS[@]}${NC}\n"
 read -r -p "$(echo -e Do you want ${RED}DEV_CASKS${NC} pour le dev web ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
-		brew_install ${DEV_CASKS[@]}
+		brew_cask_install ${DEV_CASKS[@]}
  esac
  	
 # others mac osx apps
@@ -96,7 +96,7 @@ echo -e "${PURPLE}${OTHER_CASKS[@]}${NC}\n"
 read -r -p "$(echo -e Do you want ${RED}OTHER_CASKS${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
-	brew_install ${OTHER_CASKS[@]}
+	brew_cask_install ${OTHER_CASKS[@]}
 esac
 
 # atom packages
