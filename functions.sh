@@ -5,8 +5,8 @@ function brew_install () {
 
 	TO_INSTALL=()
 	
-	echo -e "${CYAN}Here are the cask app for LIST_APP !${NC}"
-	echo -e "${PURPLE}${LIST_APP[@]}${NC}\n"
+	#echo -e "${CYAN}Here are the cask app for LIST_APP !${NC}"
+	#echo -e "${PURPLE}${LIST_APP[@]}${NC}\n"
 	for (( i=0; i<${tLen}; i++ ));
 	do
 		read -r -p "$(echo -e Install ${BLUE}${LIST_APP[$i]}${NC} ? [press enter])" input
@@ -32,8 +32,8 @@ function yarn_global_add () {
 	
 	TO_INSTALL=()
 	
-	echo -e "${CYAN}Here are the packages...${NC}"
-	echo -e "${PURPLE}${LIST_YARN[@]}${NC}\n"
+	#echo -e "${CYAN}Here are the packages...${NC}"
+	#echo -e "${PURPLE}${LIST_YARN[@]}${NC}\n"
 	
 	for (( i=0; i<${tLen}; i++ ));
 	do
@@ -50,5 +50,5 @@ function yarn_global_add () {
 	done
 	echo -e "${GREEN}Installing the following yarn packages${NC}"
 	echo -e "${ORANGE}${TO_INSTALL[@]}${NC}"
-	#yarn global add ${TO_INSTALL[@]} 
+	yarn global add ${TO_INSTALL[@]} 
 }
