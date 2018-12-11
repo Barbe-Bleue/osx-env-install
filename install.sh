@@ -1,9 +1,17 @@
 #!/bin/bash
 
-# Add global variable
-source global.sh
+# homebrew packages
+source homebrew.sh
+# homebrew cask package
+source homebrew-cask.sh
+# yarn packages
+source yarn.sh
+# atom packages
+source atom.sh
 # add functions
 source functions.sh
+# colors
+source colors.sh
 
 echo -e "${RED}LET'S${NC} ${GREEN}GO${NC} ${YELLOW}MA${NC} ${PURPLE}BOIIII${NC}"
 
