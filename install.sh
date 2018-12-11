@@ -1,17 +1,17 @@
 #!/bin/bash
 
 # homebrew packages
-source homebrew.sh
+source ./packages/homebrew.sh
 # homebrew cask package
-source homebrew-cask.sh
+source ./packages/homebrew-cask.sh
 # yarn packages
-source yarn.sh
+source ./packages/yarn.sh
 # atom packages
-source atom.sh
+source ./packages/atom.sh
 # add functions
 source functions.sh
 # colors
-source colors.sh
+source ./config/colors.sh
 
 echo -e "${RED}LET'S${NC} ${GREEN}GO${NC} ${YELLOW}MA${NC} ${PURPLE}BOIIII${NC}"
 
@@ -141,7 +141,7 @@ echo -e "\n${GREEN}Install alias...${NC}"
 read -r -p "$(echo -e I have ${GREEN}super${NC} ${PURPLE}cool${NC} ${YELLOW}aliases${NC} if you say ${GREEN}YES${NC} I will ${RED}DELETE${NC} your ${ORANGE}.bash_profile${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
- 		echo "$(cat bash_profile.txt)" > ~/.bash_profile
+ 		echo "$(cat ./config/bash_profile.txt)" > ~/.bash_profile
  	;;
 esac
 
@@ -182,7 +182,7 @@ if test $(which git); then
 	case $input in
 		[yY][eE][sS]|[yY]|'')
 			echo -e "${GREEN}Add git alias...{NC}\n"
-	 		#echo "$(cat alias_git.txt)" >> ~/.gitconfig
+	 		#echo "$(cat ./config/alias_git.txt)" >> ~/.gitconfig
 	 	;;
 	esac
 fi
