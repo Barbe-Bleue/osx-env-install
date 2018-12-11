@@ -138,10 +138,10 @@ fi
 
 # alias
 echo -e "\n${GREEN}Install alias...${NC}"
-read -r -p "$(echo -e I have ${GREEN}super${NC} ${PURPLE}cool${NC} ${YELLOW}aliases${NC} if you say ${GREEN}YES${NC} I will ${RED}DELETE${NC} your ${ORANGE}.bash_profile${NC} ? [press enter])" input
+read -r -p "$(echo -e I have ${GREEN}super${NC} ${PURPLE}cool${NC} ${YELLOW}aliases${NC} if you say ${GREEN}YES${NC} I will ${RED}add my bash config ${NC} into your ${ORANGE}.bash_profile${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
- 		#echo "$(cat ./config/bash_profile.txt)" > ~/.bash_profile
+ 		#echo "$(cat ./config/bash_profile.txt)" >> ~/.bash_profile
  	;;
 esac
 
