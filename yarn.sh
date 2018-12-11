@@ -1,0 +1,14 @@
+#!/bin/bash
+YARN_PACKAGE=(
+	create-react-app 
+	fkill-cli
+	tldr
+	coinmon
+	vtop
+	nativefier
+	ytdl
+	open-pip
+	weather-cli
+	battleship-game
+	mastermind-game 
+)
