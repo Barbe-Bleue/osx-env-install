@@ -8,6 +8,8 @@ source ./packages/homebrew-cask.sh
 source ./packages/yarn.sh
 # atom packages
 source ./packages/atom.sh
+# code package
+source ./packages/code.sh
 # add functions
 source functions.sh
 # colors
@@ -109,7 +111,20 @@ if test $(which atom); then
 		[yY][eE][sS]|[yY]|'')
 			echo -e "${ORANGE}${ATOM_PACKAGE[@]}${NC}"
 	 		echo -e "${GREEN}Install atom-packages...${NC}\n"
-	 		#apm install ${ATOM_PACKAGE[@]}
+	 		apm install ${ATOM_PACKAGE[@]}
+		;;
+	esac
+fi
+
+# atom packages
+if test $(which code); then
+	echo -e "${PURPLE}${CODE_PACKAGE[@]}${NC}\n"
+	read -r -p "$(echo -e Do you want super ${GREEN}code-package${NC} ? [press enter])" input
+	case $input in
+		[yY][eE][sS]|[yY]|'')
+			echo -e "${ORANGE}${CODE_PACKAGE[@]}${NC}"
+	 		echo -e "${GREEN}Install code-packages...${NC}\n"
+	 		code --install-extension ${ATOM_PACKAGE[@]}
 		;;
 	esac
 fi
@@ -120,7 +135,7 @@ if test $(which atom); then
 	case $input in
 		[yY][eE][sS]|[yY]|'')
 	 		echo -e "${PURPLE}Install atom dracula theme... mouhahaha${NC}\n"
-	 		#apm install dracula-theme
+	 		apm install dracula-theme
 	 	;;
 	esac
 fi
@@ -131,7 +146,7 @@ if test $(which yarn); then
   read -r -p "$(echo -e Do you want ${CYAN}yarn packages${NC} ? [press enter])" input
 	case $input in
 		[yY][eE][sS]|[yY]|'')
-			#yarn_global_add ${YARN_PACKAGE[@]}
+			yarn_global_add ${YARN_PACKAGE[@]}
 		;;
 	esac
 fi
