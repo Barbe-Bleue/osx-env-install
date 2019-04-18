@@ -13,7 +13,6 @@ DEV_CASKS=(
 	sequel-pro 
 	mongodb-compass-community 
 	postman 
-	coteditor
 	iterm2 
 	hyper 
 	upterm
