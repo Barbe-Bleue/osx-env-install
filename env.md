@@ -37,6 +37,9 @@
 	
 ## atom theme
 	apm install dracula-theme
+
+## code packages
+	code --install-extension bmewburn.vscode-intelephense-client; code --install-extension dracula-theme.theme-dracula; code --install-extension christian-kohler.path-intellisense; code --install-extension naumovs.color-highlight; code --install-extension PKief.material-icon-theme
 	
 ## config mac
 
