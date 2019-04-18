@@ -6,7 +6,6 @@ ATOM_PACKAGE=(
 	file-icons 
 	pigments 
 	color-picker 
-	atom-symfony2 
 	highlight-selected 
 	language-generic-config 
 	php-twig 
