@@ -2,8 +2,9 @@
 
 ## Table of Contents
 - [Homebrew 🍺](#homebrew-)
-  - [Install Cask](#cask-versions)
-  - [Install Mas](#mas)
+  - [Install Homebrew](#install-homebrew)
+  - [Install Cask](#install-cask)
+  - [Install Mas](#install-mas)
   - [Packages 📦](#packages-)
     - [Basic](#basic)
     - [Web Dev🕸](#web-dev-)
@@ -16,6 +17,7 @@
 - [VsCode 💎](#vscode-packages-)
 - [Config Mac 🖥](#config-mac-)
   - [Activer tab sur les prompts de mac](#activer-tab-sur-les-prompts-de-mac)
+  - [Sites folder](#sites-folder)
 - [Git 🚀](#git-)
 - [SSG 🔑](#ssh-)
 - [GPG 🗝](#gpg-)
@@ -28,12 +30,14 @@
 - [Firefox 🦊](#firefox-)
 
 ## Homebrew 🍺
+
+### install homebrew
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-### cask version 
+### install cask 
 	brew tap homebrew/cask-versions
 
-### mas
+### install mas
 	brew tap mas-cli/tap
 	brew tap-pin mas-cli/tap
 	
@@ -73,7 +77,7 @@
 	
 	ctrl + fn7
 	
-### Dossier sites d'osx
+### Sites folder
 
 	mkdir ~/Sites
 	
