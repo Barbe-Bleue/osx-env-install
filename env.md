@@ -2,8 +2,13 @@
 
 ## Table of Contents
 - [Homebrew 🍺](#homebrew-)
-  - [Packages 📦](#package-)
-- [Atom ⚛️](#atom-packages-)
+	- [Packages 📦](#package-)
+  		-[basic](#basic)
+		-[web dev🕸](#web-dev-)
+		-[fun 🙀](#fun-)
+	- [Cask 🖥](#cask-apps-)
+
+- [Atom ⚛️](#atom-packages-%EF%B8%8F)
 
 
 ## Homebrew 🍺
@@ -38,7 +43,7 @@
 #### other 
 	brew cask install min slack
 
-## atom packages  ⚛️
+## atom packages ⚛️
 	apm install atom-clock platformio-ide-terminal atom-beautify file-icons pigments color-picker atom-symfony2 highlight-selected language-generic-config php-twig atom-typescript react autoclose-html
 	
 	apm install dracula-theme
