@@ -1,6 +1,18 @@
 # 🍏 MacOSX Install 🖥
 
-## homebrew 🍺
+## Table of Contents
+- [Homebrew](#homebrew)
+  - [Install with Brew](#install-with-brew)
+  - [Install with Chocolatey](#install-with-choco)
+  - [Install with Scoop](#install-with-scoop)
+  - [Install with Package Manager](#install-with-package-manager)
+  - [Install via the AUR](#install-via-the-aur)
+  - [Flatpak Option](#flatpak)
+- [Why Does This Exist](#why)
+- [More Info](#more-info)
+- [Supported OS](#supported-os)
+
+## Homebrew 🍺
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 ### cask version 
