@@ -2,11 +2,11 @@
 
 ## Table of Contents
 - [Homebrew 🍺](#homebrew-)
-	- [Packages 📦](#packages-)
-  		- [basic](#basic)
+  - [Packages 📦](#packages-)
+	  - [basic](#basic)
 		- [web dev🕸](#web-dev-)
 		- [fun 🙀](#fun-)
-	- [Cask 🖥](#cask-)
+  - [Cask 🖥](#cask-)
 
 - [Atom ⚛️](#atom-packages-%EF%B8%8F)
 - [VsCode 💎](#vscode-packages-)
@@ -21,8 +21,6 @@
 - [MongoDB 🍃](#mongodb-)
 - [Bash 📺](#bash-)
 - [Firefox 🦊](#firefox-)
-
-
 
 ## Homebrew 🍺
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
