@@ -361,8 +361,6 @@ Avec ytdl
 	alias install-freetube="cd; git clone https://github.com/FreeTubeApp/FreeTube.git; cd FreeTube; yarn install; yarn make:mac; cp -r out/FreeTube-darwin-x64/FreeTube.app /Applications; cd; rm -rf FreeTube"
 	alias install-tetris="cd;curl -L https://github.com/samtay/tetris/releases/download/0.1.2/tetris-`uname -s`-`uname -m` -o tetris; chmod +x tetris;sudo mv tetris /usr/local/bin/"
 
-
-	
 	# apps launcher
 	## terminal du futur
 	alias edex="open /Applications/eDEX-UI.app"
@@ -371,7 +369,6 @@ Avec ytdl
 	## application permetant de crypter/decrypter des fichiers/dossiers
 	alias keeper="open /Applications/Keeper.app"
 	
-
 	# apps
 	## rechercher duckduckgo sur le terminal
 	alias ddgr="ddgr -r fr-fr -x -n 5 --unsafe"
@@ -395,7 +392,6 @@ Avec ytdl
 	alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test1000.zip"
 	## message de bienvenue
 	alias welcome='animal=("meow" "turtle" "stegosaurus");fortune | cowsay -f ${animal[$RANDOM % ${#animal[@]} ]} | lolcat'
-
 
 	# some more ls aliases
 	alias ls="ls -GFh"
@@ -527,6 +523,15 @@ Et ajoutez-lui le paramètre pwfeedback comme ceci :
 	Defaults                  env_reset,pwfeedback
 	
 redemarrer le terminal
+
+### Touch Id sudo
+
+	sudo nano /etc/pam.d/sudo
+
+Ajouter ce code à la ligne 2
+	
+	auth sufficient pam_tid.so
+	
 
 ### PS1 [tuto](https://medium.freecodecamp.org/jazz-up-your-bash-terminal-a-step-by-step-guide-with-pictures-80267554cb22)
 
