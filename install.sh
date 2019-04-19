@@ -20,26 +20,26 @@ echo -e "${RED}LET'S${NC} ${GREEN}GO${NC} ${YELLOW}MA${NC} ${PURPLE}BOIIII${NC}"
 # check if homebrew is installed
 if test ! $(which brew); then
 	echo -e "${GREEN}Install homebrew...${NC}"
-  #ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  	ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
 # update homebrew
 echo -e "${GREEN}Update homebrew...${NC}"
-#brew update
+brew update
 
 # cask and mas
 echo -e "${GREEN}Install cask and mas...${NC}"
 # install mac osx app 
 if test ! $(which cask); then
 	echo -e "${GREEN}Install cask-version...${NC}"
-	#brew tap homebrew/cask-versions
+	brew tap homebrew/cask-versions
 fi
 
 # install macapp from the mac app store
 if test ! $(which mas); then
 	echo -e "${GREEN}Install mas...${NC}"
-	#brew tap mas-cli/tap
-	#brew tap-pin mas-cli/tap
+	brew tap mas-cli/tap
+	brew tap-pin mas-cli/tap
 fi
 
 echo -e "\n${GREEN}Install homebrew packages...${NC}"
@@ -156,7 +156,7 @@ echo -e "\n${GREEN}Install alias...${NC}"
 read -r -p "$(echo -e I have ${GREEN}super${NC} ${PURPLE}cool${NC} ${YELLOW}aliases${NC} if you say ${GREEN}YES${NC} I will ${RED}add my bash config ${NC} into your ${ORANGE}.bash_profile${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
- 		#echo "$(cat ./config/bash_profile.txt)" >> ~/.bash_profile
+ 		echo "$(cat ./config/bash_profile.txt)" >> ~/.bash_profile
  	;;
 esac
 
@@ -168,7 +168,7 @@ read -r -p "$(echo -e Create ${GREEN}~/Sites/${NC} folder ? [press enter])" inpu
 case $input in
 	[yY][eE][sS]|[yY]|'')
 		echo -e "Create {GREEN}~/Sites${NC} folder OSX...\n"
- 		#mkdir ~/Sites
+ 		mkdir ~/Sites
  	;;
 esac
 
@@ -182,13 +182,13 @@ if test $(which git); then
 			read -r -p "$(echo -e Your github ${RED}pseudo${NC} ? )" input
 			if [ "$input" != "" ]; then
 				echo -e "${GREEN}$input${NC}\n"
-		   	#git config --global user.name "$input"
+		   		git config --global user.name "$input"
 			fi
 			
 			read -r -p "$(echo -e Your github ${RED}email${NC} ? )" input
 			if [ "$input" != "" ]; then
 				echo -e "${GREEN}$input${NC}\n"
-		   	#git config --global user.email "$input"
+		   		git config --global user.email "$input"
 			fi
 	 	;;
 	esac
@@ -197,7 +197,7 @@ if test $(which git); then
 	case $input in
 		[yY][eE][sS]|[yY]|'')
 			echo -e "${GREEN}Add git alias...{NC}\n"
-	 		#echo "$(cat ./config/alias_git.txt)" >> ~/.gitconfig
+	 		echo "$(cat ./config/alias_git.txt)" >> ~/.gitconfig
 	 	;;
 	esac
 fi
