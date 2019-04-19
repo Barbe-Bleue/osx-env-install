@@ -8,10 +8,10 @@ alias egitconfig="open ~/.gitconfig"
 
 # alias file 📑
 alias raccourci="cat ~/.bash_profile"
-alias eraccourci="atom ~/.bash_profile"
+alias eraccourci="vi ~/.bash_profile"
 ## pour le bind des touches clavier
 alias input="cat ~/.inputrc"
-alias einput="atom ~/.inputrc"
+alias einput="vi ~/.inputrc"
 #alias syncalias="rsync ~/.bash_profile ~/.bashrc"
 
 # mac 🖥
@@ -43,7 +43,7 @@ alias startMysql="/usr/local/bin/mysql.server start"
 alias startMongo="mongod"
 ## hosts 🕸
 alias hostlist="cat /etc/hosts"
-alias ehost="atom /etc/hosts"
+alias ehost="vi /etc/hosts"
 ## conf
 alias conf="cd /usr/local/etc/httpd/extra"
 
