@@ -15,7 +15,7 @@
 #### basic
 	brew install cask htop curl ncdu wget bash-completion screenfetch imagesnap ffmpeg youtube-dl exa mas 
 	
-#### web dev 🌐
+#### web dev 🕸
 	brew install yarn composer git gpg npm iterm2 hyper upterm
 	
 #### fun 🙀
@@ -26,7 +26,7 @@
 #### basics
 	brew cask install appcleaner macdown copyq iina spectacle
 	
-#### web dev 🌐
+#### web dev 🕸
 	brew cask install atom visual-studio-code sequel-pro mongodb-compass-community postman coteditor
  	
 #### other 
@@ -230,7 +230,7 @@ Avec ytdl
 ### Jeux 🎮
 	yarn global add battleship-game mastermind-game 
 	
-## php72 & apache 🐘
+## php72 & apache 🐘🦅
 
 ### uninstall 
 	brew remove --force --ignore-dependencies httpd; brew remove --force --ignore-dependencies php70-xdebug php71-xdebug; brew remove --force --ignore-dependencies php70-imagick php71-imagick; brew remove --ignore-dependencies --force php70 php71 php72
@@ -615,10 +615,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## [Oh My Zh & Zsh](https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156)
 
-
-## Navigateur
-
-### Firefox 🦊
+## Firefox 🦊
 - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 - [cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
@@ -632,7 +629,6 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## App Store
 	mas install runcat
-## DNS 
-
+## DNS 🌐
 	networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
 	
