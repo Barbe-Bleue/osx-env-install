@@ -11,4 +11,6 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 
 ## start 👌🏻
 
+Open a terminal and type
+
 `./install.sh`
