@@ -29,6 +29,7 @@ brew update
 
 # cask and mas
 echo -e "${GREEN}Install cask and mas...${NC}"
+
 # install mac osx app 
 if test ! $(which cask); then
 	echo -e "${GREEN}Install cask-version...${NC}"
@@ -93,14 +94,16 @@ read -r -p "$(echo -e Do you want ${RED}DEV_CASKS${NC} pour le dev web ? [press 
 case $input in
 	[yY][eE][sS]|[yY]|'')
 		brew_cask_install ${DEV_CASKS[@]}
- esac
+	;;
+esac
  	
 # others mac osx apps
 echo -e "${PURPLE}${OTHER_CASKS[@]}${NC}\n"
 read -r -p "$(echo -e Do you want ${RED}OTHER_CASKS${NC} ? [press enter])" input
 case $input in
 	[yY][eE][sS]|[yY]|'')
-	brew_cask_install ${OTHER_CASKS[@]}
+		brew_cask_install ${OTHER_CASKS[@]}
+	;;
 esac
 
 # atom packages
