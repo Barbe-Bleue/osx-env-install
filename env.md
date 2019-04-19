@@ -2,17 +2,23 @@
 
 ## Table of Contents
 - [Homebrew 🍺](#homebrew-)
-   - [Packages 📦](#packages-)
-     - [basic](#basic)
-     - [web dev🕸](#web-dev-)
-     - [fun 🙀](#fun-)
+  - [Install Cask](#cask-versions)
+  - [Install Mas](#mas)
+  - [Packages 📦](#packages-)
+    - [Basic](#basic)
+    - [Web Dev🕸](#web-dev-)
+    - [Fun 🙀](#fun-)
   - [Cask 🖥](#cask-)
+    - [Basic](#cask-basic)
+    - [Web Dev🕸](#cask-web-dev-)
+    - [Other](#other-)
 - [Atom ⚛️](#atom-packages-%EF%B8%8F)
 - [VsCode 💎](#vscode-packages-)
 - [Config Mac 🖥](#config-mac-)
+  - [Activer tab sur les prompts de mac](#activer-tab-sur-les-prompts-de-mac)
 - [Git 🚀](#git-)
-- [SSG 🔑]
-- [GPG 🗝]
+- [SSG 🔑](#ssh-)
+- [GPG 🗝](#gpg-)
 - [Yarn 🐱](#yarn-)
 - [Apache 🦅](#apache-)
 - [PHP 7.2 🐘](#php72-)
@@ -44,13 +50,13 @@
 
 ### Cask 🖥
 
-#### basics
+#### cask basics
 	brew cask install appcleaner macdown copyq iina spectacle
 	
-#### web dev 🕸
+#### cask web dev 🕸
 	brew cask install atom visual-studio-code sequel-pro mongodb-compass-community postman coteditor
  	
-#### other 
+#### cask other 
 	brew cask install min slack
 
 ## Atom packages ⚛️
