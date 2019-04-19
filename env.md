@@ -1,16 +1,10 @@
 # 🍏 MacOSX Install 🖥
 
 ## Table of Contents
-- [Homebrew](#homebrew)
-  - [Install with Brew](#install-with-brew)
-  - [Install with Chocolatey](#install-with-choco)
-  - [Install with Scoop](#install-with-scoop)
-  - [Install with Package Manager](#install-with-package-manager)
-  - [Install via the AUR](#install-via-the-aur)
-  - [Flatpak Option](#flatpak)
-- [Why Does This Exist](#why)
-- [More Info](#more-info)
-- [Supported OS](#supported-os)
+- [Homebrew 🍺](#homebrew-)
+  - [Packages 📦](#package-)
+- [Atom ⚛️](#atom-packages-)
+
 
 ## Homebrew 🍺
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -44,7 +38,7 @@
 #### other 
 	brew cask install min slack
 
-## atom packages ⚛️
+## atom packages  ⚛️
 	apm install atom-clock platformio-ide-terminal atom-beautify file-icons pigments color-picker atom-symfony2 highlight-selected language-generic-config php-twig atom-typescript react autoclose-html
 	
 	apm install dracula-theme
