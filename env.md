@@ -2,13 +2,26 @@
 
 ## Table of Contents
 - [Homebrew 🍺](#homebrew-)
-	- [Packages 📦](#package-)
+	- [Packages 📦](#packages-)
   		- [basic](#basic)
 		- [web dev🕸](#web-dev-)
 		- [fun 🙀](#fun-)
-	- [Cask 🖥](#cask-apps-)
+	- [Cask 🖥](#cask-)
 
 - [Atom ⚛️](#atom-packages-%EF%B8%8F)
+- [VsCode 💎](#vscode-packages-)
+- [Config Mac 🖥](#config-mac-)
+- [Git 🚀](#git-)
+- [SSG 🔑]
+- [GPG 🗝]
+- [Yarn 🐱](#yarn-)
+- [Apache 🦅](#apache-)
+- [PHP 7.2 🐘](#php72-)
+- [Mysql 🐬](#mysql-)
+- [MongoDB 🍃](#mongodb-)
+- [Bash 📺](#bash-)
+- [Firefox 🦊](#firefox-)
+
 
 
 ## Homebrew 🍺
@@ -21,7 +34,7 @@
 	brew tap mas-cli/tap
 	brew tap-pin mas-cli/tap
 	
-### package 📦
+### Packages 📦
 
 #### basic
 	brew install cask htop curl ncdu wget bash-completion screenfetch imagesnap ffmpeg youtube-dl exa mas 
@@ -32,7 +45,7 @@
 #### fun 🙀
 	brew install cmatrix cowsay fortune asciiquarium toilet lolcat sl mps-youtube
 
-### cask apps 🖥
+### Cask 🖥
 
 #### basics
 	brew cask install appcleaner macdown copyq iina spectacle
@@ -43,15 +56,15 @@
 #### other 
 	brew cask install min slack
 
-## atom packages ⚛️
+## Atom packages ⚛️
 	apm install atom-clock platformio-ide-terminal atom-beautify file-icons pigments color-picker atom-symfony2 highlight-selected language-generic-config php-twig atom-typescript react autoclose-html
 	
 	apm install dracula-theme
 
-## vscode packages 💎
+## Vscode packages 💎
 	code --install-extension bmewburn.vscode-intelephense-client; code --install-extension dracula-theme.theme-dracula; code --install-extension christian-kohler.path-intellisense; code --install-extension naumovs.color-highlight; code --install-extension PKief.material-icon-theme
 	
-## config mac 🖥
+## Config mac 🖥
 
 ### Activer tab sur les prompts de mac
 	
@@ -61,7 +74,7 @@
 
 	mkdir ~/Sites
 	
-## git 🚀
+## Git 🚀
 
 ### config user
 	git config --global user.name "foo-bar"
@@ -74,13 +87,13 @@
 	
 ### [alias](https://github.com/barbe-bleue/osx-env-install/blob/master/config/git_alias.txt)
 		
-## clé SSH 🔑
+## SSH 🔑
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 	Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 	Enter passphrase (empty for no passphrase): [Type a passphrase]
 	Enter same passphrase again: [Type passphrase again]
 	
-## clé GPG 🗝
+## GPG 🗝
 
 ### génération de clé
 	gpg --full-generate-key
@@ -176,16 +189,24 @@ Avec ytdl
 ### Jeux 🎮
 	yarn global add battleship-game mastermind-game 
 	
-## php72 & apache 🐘🦅
+## apache 🦅
 
 ### uninstall 
-	brew remove --force --ignore-dependencies httpd; brew remove --force --ignore-dependencies php70-xdebug php71-xdebug; brew remove --force --ignore-dependencies php70-imagick php71-imagick; brew remove --ignore-dependencies --force php70 php71 php72
+	brew remove --force --ignore-dependencies httpd;
 
 ### install
-	brew install httpd php72
+	brew install httpd
 
 ### start service
 	brew services start httpd
+
+## php72 🐘
+
+### uninstall
+	brew remove --force --ignore-dependencies php70-xdebug php71-xdebug; brew remove --force --ignore-dependencies php70-imagick php71-imagick; brew remove --ignore-dependencies --force php70 php71 php72
+
+### install
+	brew install php72
 	
 ### extension
 	brew install php72-cs-fixer
@@ -361,6 +382,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## App Store
 	mas install runcat
+
 ## DNS 🌐
 	networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
 	
