@@ -1,6 +1,6 @@
 #!/bin/bash
 BASIC_CASKS=(
-  appcleaner 
+  	appcleaner 
 	macdown 
 	copyq 
 	iina 
@@ -8,7 +8,7 @@ BASIC_CASKS=(
 )
 
 DEV_CASKS=(
-  atom 
+  	atom 
 	visual-studio-code 
 	sequel-pro 
 	mongodb-compass-community 
@@ -16,9 +16,9 @@ DEV_CASKS=(
 	iterm2 
 	hyper 
 	upterm
+	slack
 )
 
 OTHER_CASKS=(
 	min
-	slack
 )
