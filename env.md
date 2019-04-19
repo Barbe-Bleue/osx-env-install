@@ -1,47 +1,47 @@
 # MacOSX Install
 
-## homebrew
+## homebrew 🍺
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-### cask version
+### cask version 
 	brew tap homebrew/cask-versions
 
 ### mas
 	brew tap mas-cli/tap
 	brew tap-pin mas-cli/tap
 	
-### package 
+### package 📦
 
 #### basic
 	brew install cask htop curl ncdu wget bash-completion screenfetch imagesnap ffmpeg youtube-dl exa mas 
 	
-#### web dev
+#### web dev 🌐
 	brew install yarn composer git gpg npm iterm2 hyper upterm
 	
-#### fun
+#### fun 🙀
 	brew install cmatrix cowsay fortune asciiquarium toilet lolcat sl mps-youtube
 
-### cask apps
+### cask apps 🖥
 
 #### basics
 	brew cask install appcleaner macdown copyq iina spectacle
 	
-#### web dev
+#### web dev 🌐
 	brew cask install atom visual-studio-code sequel-pro mongodb-compass-community postman coteditor
  	
-#### other
+#### other 
 	brew cask install min slack
 
-## atom packages
+## atom packages ⚛️
 	apm install atom-clock platformio-ide-terminal atom-beautify file-icons pigments color-picker atom-symfony2 highlight-selected language-generic-config php-twig atom-typescript react autoclose-html
 	
 ## atom theme
 	apm install dracula-theme
 
-## code packages
+## code packages 
 	code --install-extension bmewburn.vscode-intelephense-client; code --install-extension dracula-theme.theme-dracula; code --install-extension christian-kohler.path-intellisense; code --install-extension naumovs.color-highlight; code --install-extension PKief.material-icon-theme
 	
-## config mac
+## config mac 🖥
 
 ### Activer tab sur les prompts de mac
 	
@@ -51,7 +51,7 @@
 
 	mkdir ~/Sites
 	
-## git
+## git 🚀
 
 ### config user
 	git config --global user.name "foo-bar"
@@ -125,13 +125,13 @@
 		gpgsign = false
 
 
-## clé ssh
+## clé ssh 🔑
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 	Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 	Enter passphrase (empty for no passphrase): [Type a passphrase]
 	Enter same passphrase again: [Type passphrase again]
 	
-## clé GPG
+## clé GPG 🗝
 
 ### génération de clé
 	gpg --full-generate-key
@@ -163,7 +163,7 @@ Ajouter sa clé **3AA5C34371567BD2** à git
 	git config --global commit.gpgsign true
 	git config --global gpg.program gpg
 	
-## yarn 
+## yarn 🐱
 	
 ### Créer une applicaiton react
 
@@ -180,7 +180,7 @@ Ajouter sa clé **3AA5C34371567BD2** à git
 	
 > tldr git
 	
-### Cours de crypto dans la terminal
+### Cours de crypto dans la terminal 💰
 
 	yarn global add coinmon
 Lister le top 10
@@ -199,7 +199,7 @@ Chercher une crypto
 	yarn global add nativefier
 > nativefier "http://medium.com"
 
-### Télécharger ou streamer video youtube
+### Télécharger ou streamer video youtube ▶️
 	yarn global add ytdl
 Regarder la video
 > ytdl "http://www.youtube.com/watch?v=_HSylqgVYQI" | mpv -
@@ -222,15 +222,15 @@ Télécharger au format mp3 (besoin de ffmpeg)
 Avec ytdl
 > ytdl --print-url --filter-container=mp4 https://www.youtube.com/watch?v=6HLPnq2lrgQ | open-pip
 
-### Meteo dans le terminal
+### Meteo dans le terminal 🌤
 	yarn global add weather-cli
 > weather -c paris -C france
 
 
-### Jeux
+### Jeux 🎮
 	yarn global add battleship-game mastermind-game 
 	
-## php72 & apache
+## php72 & apache 🐘
 
 ### uninstall 
 	brew remove --force --ignore-dependencies httpd; brew remove --force --ignore-dependencies php70-xdebug php71-xdebug; brew remove --force --ignore-dependencies php70-imagick php71-imagick; brew remove --ignore-dependencies --force php70 php71 php72
@@ -244,7 +244,7 @@ Avec ytdl
 ### extension
 	brew install php72-cs-fixer
 
-## mysql
+## mysql 🐬
 
 ### install
 	brew install mysql
@@ -256,7 +256,7 @@ Avec ytdl
 	mysql -u root -p
 	ALTER USER root@localhost IDENTIFIED WITH mysql_native_password BY 'myNewPass11!';
 
-## mongodb
+## mongodb 🍃
 
 ### install
 	brew install mongodb
@@ -268,7 +268,7 @@ Avec ytdl
 	sudo mkdir -p /data/db
 	sudo chown -R `id -un` /data/db
 
-## BASH
+## BASH 📺
 ### Themes pour le terminal
 
 [macos-terminal-themes](https://github.com/lysyi3m/macos-terminal-themes)
@@ -283,7 +283,7 @@ Avec ytdl
 
 [dracula-theme](https://github.com/dracula/terminal-app.git)
 	
-### alias
+### alias 💡
 
 #### bash_profile
 
@@ -510,7 +510,7 @@ Avec ytdl
 	"e[A": history-search-backward
 	"e[B": history-search-forward
 
-### Étoile mot de passe
+### Étoile mot de passe 🌟
 	
 	sudo visudo
 
@@ -524,7 +524,7 @@ Et ajoutez-lui le paramètre pwfeedback comme ceci :
 	
 redemarrer le terminal
 
-### Touch Id sudo
+### Touch Id sudo 🔐
 
 	sudo nano /etc/pam.d/sudo
 
@@ -618,7 +618,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## Navigateur
 
-### Firefox 
+### Firefox 🦊
 - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
 - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 - [cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
@@ -632,7 +632,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## App Store
 	mas install runcat
-## DNS
+## DNS 
 
 	networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
 	
