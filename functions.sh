@@ -19,7 +19,7 @@ function brew_install () {
 	done
 	echo -e "${GREEN}Installing the following formules ${NC}"
 	echo -e "${ORANGE}${TO_INSTALL[@]}${NC}\n"
-	#brew install ${TO_INSTALL[@]} 
+	brew install ${TO_INSTALL[@]} 
 }
 
 function brew_cask_install () {
@@ -44,7 +44,7 @@ function brew_cask_install () {
 	done
 	echo -e "${GREEN}Installing the following osx apps${NC}"
 	echo -e "${ORANGE}${TO_INSTALL[@]}${NC}\n"
-	#brew cask install ${TO_INSTALL[@]} 
+	brew cask install ${TO_INSTALL[@]} 
 }
 
 function yarn_global_add () {
@@ -69,5 +69,5 @@ function yarn_global_add () {
 	done
 	echo -e "${GREEN}Installing the following yarn packages${NC}"
 	echo -e "${ORANGE}${TO_INSTALL[@]}${NC}"
-	#yarn global add ${TO_INSTALL[@]} 
+	yarn global add ${TO_INSTALL[@]} 
 }
