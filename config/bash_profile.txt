@@ -67,14 +67,6 @@ alias install-mongo="cd; wget http://downloads.mongodb.org/osx/mongodb-osx-x86_6
 alias install-freetube="cd; git clone https://github.com/FreeTubeApp/FreeTube.git; cd FreeTube; yarn install; yarn make:mac; cp -r out/FreeTube-darwin-x64/FreeTube.app /Applications; cd; rm -rf FreeTube"
 alias install-tetris="cd;curl -L https://github.com/samtay/tetris/releases/download/0.1.2/tetris-`uname -s`-`uname -m` -o tetris; chmod +x tetris;sudo mv tetris /usr/local/bin/"
 
-# apps launcher 🚀
-## terminal du futur
-alias edex="open /Applications/eDEX-UI.app"
-## déconnecte tout le monde du réseau
-alias kickthemout="sudo python3 /Applications/kickthemout/kickthemout.py"
-## application permetant de crypter/decrypter des fichiers/dossiers
-alias keeper="open /Applications/Keeper.app"
-
 # programs 👨🏻‍💻
 ## recherche duckduck go sur le terminal 🦆
 alias ddgr="ddgr -r fr-fr -x -n 5 --unsafe"
@@ -98,6 +90,8 @@ alias screenfetch='screenfetch -E'
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test1000.zip"
 ## message de bienvenue
 alias welcome='animal=("meow" "turtle" "stegosaurus"); fortune | cowsay -f ${animal[$RANDOM % ${#animal[@]} ]} | lolcat'
+## déconnecte tout le monde du réseau
+alias kickthemout="sudo python3 /Applications/kickthemout/kickthemout.py"
 
 # some more ls aliases
 alias ls="ls -GFh"
