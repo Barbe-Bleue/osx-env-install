@@ -106,24 +106,24 @@ esac
 # atom packages
 if test $(which atom); then
 	echo -e "${PURPLE}${ATOM_PACKAGE[@]}${NC}\n"
-	read -r -p "$(echo -e Do you want super ${GREEN}atom-package${NC} ? [press enter])" input
+	read -r -p "$(echo -e Do you want super ${GREEN}atom packages${NC} ? [press enter])" input
 	case $input in
 		[yY][eE][sS]|[yY]|'')
 			echo -e "${ORANGE}${ATOM_PACKAGE[@]}${NC}"
-	 		echo -e "${GREEN}Install atom-packages...${NC}\n"
+	 		echo -e "${GREEN}Install atom packages...${NC}\n"
 	 		apm install ${ATOM_PACKAGE[@]}
 		;;
 	esac
 fi
 
-# atom packages
+# vscode packages
 if test $(which code); then
 	echo -e "${PURPLE}${CODE_PACKAGE[@]}${NC}\n"
-	read -r -p "$(echo -e Do you want super ${GREEN}code-package${NC} ? [press enter])" input
+	read -r -p "$(echo -e Do you want super ${GREEN}vscode packages${NC} ? [press enter])" input
 	case $input in
 		[yY][eE][sS]|[yY]|'')
 			echo -e "${ORANGE}${CODE_PACKAGE[@]}${NC}"
-	 		echo -e "${GREEN}Install code-packages...${NC}\n"
+	 		echo -e "${GREEN}Install vscode packages...${NC}\n"
 	 		code --install-extension ${ATOM_PACKAGE[@]}
 		;;
 	esac
@@ -205,4 +205,3 @@ fi
 source ~/.bash_profile
 
 echo -e "${RED}END${NC} ${PURPLE}OF${NC} ${GREEN}INSTALLATION${NC} ${YELLOW}OF${NC} ${BLUE}LENVIRONNEMENT${NC}" 
-
