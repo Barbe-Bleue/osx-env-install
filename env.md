@@ -3,9 +3,9 @@
 ## Table of Contents
 - [Homebrew 🍺](#homebrew-)
 	- [Packages 📦](#package-)
-  		-[basic](#basic)
-		-[web dev🕸](#web-dev-)
-		-[fun 🙀](#fun-)
+  		- [basic](#basic)
+		- [web dev🕸](#web-dev-)
+		- [fun 🙀](#fun-)
 	- [Cask 🖥](#cask-apps-)
 
 - [Atom ⚛️](#atom-packages-%EF%B8%8F)
