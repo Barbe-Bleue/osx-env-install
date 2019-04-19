@@ -349,6 +349,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [stylus](https://addons.mozilla.org/fr/firefox/addon/styl-us/)
 - [bloody vikings!](https://addons.mozilla.org/fr/firefox/addon/bloody-vikings/)
 - [tabliss](https://addons.mozilla.org/fr/firefox/addon/tabliss/?src=external-tabliss.io)
+- [minimal](https://addons.mozilla.org/fr/firefox/addon/minimal-internet-experience/)
 
 ## App Store
 	mas install runcat
