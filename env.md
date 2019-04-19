@@ -101,7 +101,7 @@ Ajouter sa clé **3AA5C34371567BD2** à git
 	git config --global commit.gpgsign true
 	git config --global gpg.program gpg
 	
-## yarn 🐱
+## [Yarn 🐱](https://github.com/barbe-bleue/osx-env-install/blob/master/yarn.md)
 	./yarn.md
 	
 ## php72 & apache 🐘🦅
