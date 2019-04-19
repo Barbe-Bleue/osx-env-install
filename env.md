@@ -63,7 +63,7 @@
 	
 ### [config colors & alias](https://github.com/barbe-bleue/osx-env-install/blob/master/config/git_alias.txt)
 		
-## clé ssh 🔑
+## clé SSH 🔑
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 	Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 	Enter passphrase (empty for no passphrase): [Type a passphrase]
