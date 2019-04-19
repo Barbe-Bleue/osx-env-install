@@ -2,11 +2,11 @@ if [ -f $(brew --prefix)/etc/bash_completion ]; then
   . $(brew --prefix)/etc/bash_completion
 fi
 
-# git config
+# git config 🚀
 alias gitconfig="cat ~/.gitconfig"
 alias egitconfig="open ~/.gitconfig"
 
-# alias file 
+# alias file 📑
 alias raccourci="cat ~/.bash_profile"
 alias eraccourci="atom ~/.bash_profile"
 ## pour le bind des touches clavier
@@ -14,11 +14,11 @@ alias input="cat ~/.inputrc"
 alias einput="atom ~/.inputrc"
 #alias syncalias="rsync ~/.bash_profile ~/.bashrc"
 
-# mac
+# mac 🖥
 ## afficher ou cacher les fichiers/dossiers cachés
 alias finderShowHidden='defaults write com.apple.finder AppleShowAllFiles YES; sudo killall Finder'
 alias finderHideHidden='defaults write com.apple.finder AppleShowAllFiles NO; sudo killall Finder'
-## recherche de fichier
+## recherche de fichier🕵🏻‍♂️
 alias f.="find . -type f -name"
 alias ff="find / -type f -name"
 ## grep de l'historique de commande
@@ -33,21 +33,21 @@ alias lockMessageDel='sudo defaults delete /Library/Preferences/com.apple.loginw
 ## recharge les alias
 alias reload='source ~/.bash_profile'
 
-# server
-## apache
+# server 🌐
+## apache 🦅
 alias startApache="/usr/local/bin/apachectl start"
 alias stopApache="/usr/local/bin/apachectl stop"
 alias restartApache="/usr/local/bin/apachectl restart"
-## base de donnée
+## base de donnée 🗄
 alias startMysql="/usr/local/bin/mysql.server start"
 alias startMongo="mongod"
-## hosts
+## hosts 🕸
 alias hostlist="cat /etc/hosts"
 alias ehost="atom /etc/hosts"
 ## conf
 alias conf="cd /usr/local/etc/httpd/extra"
 
-# Change directory aliases
+# Change directory aliases 📁
 alias home='cd ~'
 alias www="cd ~/Sites"
 alias docs='cd ~/Documents'
@@ -58,7 +58,7 @@ alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
 
-# apps installation
+# apps installation 📥
 alias install-edex="cd; git clone https://github.com/GitSquared/edex-ui; cd edex-ui;  npm install ; npm run build-darwin ; cp -r dist/mac/eDEX-UI.app /Applications/ ; cd ; rm -rf edex-ui/"
 alias install-kickthemout="brew install python3 libdnet nmap ; git clone https://github.com/k4m4/kickthemout.git /Applications/ ; cd /Applications/kickthemout ; sudo -H pip3 install -r requirements.txt"
 alias install-keeper="cd; git clone https://github.com/ardagedikk/keeper.git; cd keeper; yarn install; yarn build-osx; cp -r build/Keeper-darwin-x64/Keeper.app /Applications/ ; cd ; rm -rf keeper/"
@@ -67,8 +67,7 @@ alias install-mongo="cd; wget http://downloads.mongodb.org/osx/mongodb-osx-x86_6
 alias install-freetube="cd; git clone https://github.com/FreeTubeApp/FreeTube.git; cd FreeTube; yarn install; yarn make:mac; cp -r out/FreeTube-darwin-x64/FreeTube.app /Applications; cd; rm -rf FreeTube"
 alias install-tetris="cd;curl -L https://github.com/samtay/tetris/releases/download/0.1.2/tetris-`uname -s`-`uname -m` -o tetris; chmod +x tetris;sudo mv tetris /usr/local/bin/"
 
-
-# apps launcher
+# apps launcher 🚀
 ## terminal du futur
 alias edex="open /Applications/eDEX-UI.app"
 ## déconnecte tout le monde du réseau
@@ -76,26 +75,26 @@ alias kickthemout="sudo python3 /Applications/kickthemout/kickthemout.py"
 ## application permetant de crypter/decrypter des fichiers/dossiers
 alias keeper="open /Applications/Keeper.app"
 
-# apps
-## recherche duckduck go sur le terminal
+# programs 👨🏻‍💻
+## recherche duckduck go sur le terminal 🦆
 alias ddgr="ddgr -r fr-fr -x -n 5 --unsafe"
-## matrix
+## matrix 💊
 alias matrix='LC_ALL=C tr -c "[:digit:]" " " < /dev/urandom | dd cbs=$COLUMNS conv=unblock | GREP_COLOR="1;32" grep --color "[^ ]"'
 alias matrixBinarie='echo -e "1"; while $t; do for i in `seq 1 30`;do r="$[($RANDOM % 2)]";h="$[($RANDOM % 4)]";if [ $h -eq 1 ]; then v="0 $r";else v="1 $r";fi;v2="$v2 $v";done;echo -e $v2;v2="";done;'
-## film starwars sur le terminal
+## film starwars sur le terminal 🌟
 alias starwars="telnet towel.blinkenlights.nl"
-## mp3 ou mp4 d'une video youtube
+## mp3 ou mp4 d'une video youtube 🎵 ▶️
 alias yt-mp3="youtube-dl --extract-audio --audio-format mp3 -i"
 alias yt-mp4="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' -i"
 ## % d'espace que prend un dossier et/ou des fichiers
 alias space="ncdu"
 ## affiche la date toute les secondes
 alias dateColor="while true; do echo '$(date '+%D %T' | toilet -f term -F border --gay)'; sleep 1; done"
-## prend une photo via la webcam
+## prend une photo via la webcam 📹
 alias takesnap="imagesnap -w 1 ~/snapshot.png; open ~/snapshot.png"
-## message quand ouverture du bash
+## message quand ouverture du bash 
 alias screenfetch='screenfetch -E'
-## speedted on terminal
+## speedted on terminal 🏎💨
 alias speedtest="wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test1000.zip"
 ## message de bienvenue
 alias welcome='animal=("meow" "turtle" "stegosaurus"); fortune | cowsay -f ${animal[$RANDOM % ${#animal[@]} ]} | lolcat'
@@ -113,7 +112,7 @@ else
   alias la="ls -a"
 fi
 
-# chmod commands
+# chmod commands 👔🗝
 alias mx='sudo chmod a+x'
 alias 000='sudo chmod -R 000'
 alias 644='sudo chmod -R 644'
@@ -122,7 +121,7 @@ alias 755='sudo chmod -R 755'
 alias 777='sudo chmod -R 777'
 alias droit='sudo chmod -R 777'
 
-## transferer un fichier en ligne de commande
+## transferer un fichier en ligne de commande 📤
 transfer() {
 	# write to output to tmpfile because of progress bar
 	tmpfile=$( mktemp -t transferXXX )
@@ -132,37 +131,37 @@ transfer() {
 	rm -f $tmpfile;
 }
 
-## youtube video in picture in picture
+## youtube video in picture in picture 📺
 ytpip() {
   ytdl --print-url --filter-container=mp4 $1 | open-pip
 }
 
-## connaitre la méteo de la semaine avec dessins avec une ville en argument
+## connaitre la méteo de la semaine avec dessins avec une ville en argument 🌤
 meteo() {
   curl https://wttr.in/$1
 }
 
-## connaitre la méteo d'aujourd'hui avec ville et pays en argument
+## connaitre la méteo d'aujourd'hui avec ville et pays en argument☀️
 temps() {
   weather -c $1 -C $2
 }
 
-## connaitre son ip
+## connaitre son ip 🌐
 getip() {
   curl -s checkip.dyndns.org | sed -e 's/.*Current IP Address: //' -e 's/<.*$//'
 }
 
-## converti une video and mp4
+## converti une video and mp4 
 convertToMp4 () {
   ffmpeg -i "$1" -c:a aac -b:a 128k -c:v libx264 -crf 23 "$1".mp4
 }
 
-## move something to the trash
+## move something to the trash 🗑
 del() {
   mv $@ ~/.Trash
 }
 
-## peut tout extraire
+## peut tout extraire 📦
 extract () {
 if [ -f $1 ] ; then
   case $1 in
@@ -185,7 +184,7 @@ if [ -f $1 ] ; then
 }
 
 
-# couleur pour le "ls"
+# couleur pour le "ls" 🌈
 export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 
@@ -198,12 +197,12 @@ if [ -f `which powerline-daemon` ]; then
   . /Users/$USER/Library/Python/2.7/lib/python/site-packages/powerline/bindings/bash/powerline.sh
 fi
 
-# infos du mac
+# infos du mac 🖥
 if [ -f $(brew --prefix)/bin/neofetch ] ; then
   neofetch
 fi
 
-# message du jour dit par un animal coloré
+# message du jour dit par un animal coloré 🦊
 if [ -f $(brew --prefix)/bin/fortune ] && [ -f $(brew --prefix)/bin/cowsay ] && [ -f $(brew --prefix)/bin/lolcat ] && [ -f $(brew --prefix)/bin/neofetch ]; then
   welcome
 fi
