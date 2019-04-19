@@ -124,7 +124,7 @@ if test $(which code); then
 		[yY][eE][sS]|[yY]|'')
 			echo -e "${ORANGE}${CODE_PACKAGE[@]}${NC}"
 	 		echo -e "${GREEN}Install vscode packages...${NC}\n"
-	 		code --install-extension ${ATOM_PACKAGE[@]}
+	 		code --install-extension ${CODE_PACKAGE[@]}
 		;;
 	esac
 fi
