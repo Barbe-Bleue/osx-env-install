@@ -202,7 +202,7 @@ if test $(which git); then
 	esac
 fi
 
-#source ~/.bash_profile
+source ~/.bash_profile
 
 echo -e "${RED}END${NC} ${PURPLE}OF${NC} ${GREEN}INSTALLATION${NC} ${YELLOW}OF${NC} ${BLUE}LENVIRONNEMENT${NC}" 
 
