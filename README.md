@@ -100,11 +100,11 @@ Open a terminal and type
 	
 ## Git 🚀
 
-### config user
+### Config User
 	git config --global user.name "foo-bar"
 	git config --global user.email foo@bar.com
 
-### [alias](https://github.com/barbe-bleue/osx-env-install/blob/master/config/git_alias.txt)
+### [Alias Git](https://github.com/barbe-bleue/osx-env-install/blob/master/config/git_alias.txt)
 		
 ## SSH 🔑
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -114,14 +114,14 @@ Open a terminal and type
 	
 ## GPG 🗝
 
-### génération de clé
+### Génération de clé
 	gpg --full-generate-key
 	RSA
 	0
 	y
 	4096
 
-### récupération de la clé
+### Récupération de la clé
 	gpg --list-secret-keys --keyid-format LONG
 	
 From the list of GPG keys, copy the GPG key ID you'd like to use. In this example, the GPG key ID is **3AA5C34371567BD2**:
@@ -137,7 +137,7 @@ Paste the text below, substituting in the GPG key ID you'd like to use. In this 
 	
 Copy your GPG key, beginning with -----BEGIN PGP PUBLIC KEY BLOCK----- and ending with -----END PGP PUBLIC KEY BLOCK-----
 
-### clé gpg sur git
+### Clé GPG sur git
 Ajouter sa clé **3AA5C34371567BD2** à git
 
 	git config --global user.signingkey 3AA5C34371567BD2
@@ -173,7 +173,6 @@ Chercher une crypto
 ### Command Top avec effet visuel
 
 	yarn global add vtop
-> vtop
 	
 ### Transformer un site web en application
 
