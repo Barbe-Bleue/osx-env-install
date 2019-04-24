@@ -61,13 +61,13 @@ Open a terminal and type
 ### Packages 📦
 
 #### basic
-	brew install cask htop curl ncdu wget bash-completion screenfetch imagesnap ffmpeg youtube-dl exa mas 
+	brew install cask htop curl ncdu wget bash-completion screenfetch imagesnap ffmpeg youtube-dl exa mas mps-youtube
 	
 #### web dev 🕸
-	brew install yarn composer git gpg npm iterm2 hyper upterm
+	brew install yarn composer git gpg npm
 	
 #### fun 🙀
-	brew install cmatrix cowsay fortune asciiquarium toilet lolcat sl mps-youtube
+	brew install cmatrix cowsay fortune asciiquarium toilet lolcat sl ddgr
 
 ### Cask 🖥
 
@@ -75,10 +75,10 @@ Open a terminal and type
 	brew cask install appcleaner macdown copyq iina spectacle
 	
 #### cask web dev 🕸
-	brew cask install atom visual-studio-code sequel-pro mongodb-compass-community postman coteditor
+	brew cask install vscodium docker atom visual-studio-code sequel-pro mongodb-compass-community postman gas-mask iterm2 hyper upterm slack gas-mask
  	
 #### cask other 
-	brew cask install min slack
+	brew cask install min 
 
 ## Atom packages ⚛️
 	apm install atom-clock platformio-ide-terminal atom-beautify file-icons pigments color-picker atom-symfony2 highlight-selected language-generic-config php-twig atom-typescript react autoclose-html
