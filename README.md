@@ -375,7 +375,7 @@ Ajouter ca à la suite de "attached_client" (ne pas oublier la virgule)
   	
 ##### Activate The Theme
 
-	atom /Users/$USER/Library/Python/2.7/lib/python/site-packages/powerline/config_files/themes/shell/default.json
+	vi /Users/$USER/Library/Python/2.7/lib/python/site-packages/powerline/config_files/themes/shell/default.json
 	
 ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
