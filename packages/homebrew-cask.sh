@@ -8,6 +8,8 @@ BASIC_CASKS=(
 )
 
 DEV_CASKS=(
+	vscodium
+	docker
   	atom 
 	visual-studio-code 
 	sequel-pro 
@@ -17,6 +19,7 @@ DEV_CASKS=(
 	hyper 
 	upterm
 	slack
+	gas-mask
 )
 
 OTHER_CASKS=(
