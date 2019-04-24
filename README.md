@@ -104,11 +104,6 @@ Open a terminal and type
 	git config --global user.name "foo-bar"
 	git config --global user.email foo@bar.com
 
-	#[user]
-	#name = foo-bar
-	#email = foo@bar.com
-	#signingkey = 3AA5C34371567BD2
-	
 ### [alias](https://github.com/barbe-bleue/osx-env-install/blob/master/config/git_alias.txt)
 		
 ## SSH 🔑
