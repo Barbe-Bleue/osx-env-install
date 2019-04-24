@@ -31,4 +31,5 @@ FUN_PACKAGES=(
 	toilet 
 	lolcat 
 	sl
+	ddgr
 )
