@@ -47,6 +47,7 @@ Open a terminal and type in the osx-env-install folder
 - [Firefox 🦊](#firefox-)
   - [Ublock Filter](#ublock)
   - [Redirector](#youtube-redirection-to-invidious-for-redirector-thanks-to-doronbehar)
+- [Chrome](#chrome)
 
 ## Homebrew 🍺
 
@@ -412,6 +413,10 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 ### Youtube redirection to Invidious for Redirector. Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect)
 [Redirector Youtube redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector)
 
+## Chrome
+  - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
+  - [GithubXp](https://chrome.google.com/webstore/detail/github-xp/ipjbabcpngaonjaedhpfodmjaklmdfdo)
+  
 ## App Store
 	mas install runcat
 
