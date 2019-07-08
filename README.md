@@ -30,6 +30,7 @@ Open a terminal and type in the osx-env-install folder
     - [Basic](#cask-basic)
     - [Web Dev🕸](#cask-web-dev-)
     - [Other](#other-)
+  - [Mas](#mas)
 - [Atom ⚛️](#atom-packages-%EF%B8%8F)
 - [VSCodium 💎](#vscodium-packages-)
 - [Config Mac 🖥](#config-mac-)
@@ -80,6 +81,9 @@ Open a terminal and type in the osx-env-install folder
  	
 #### cask other 
 	brew cask install min 
+
+### Mas 	
+	mas install runcat
 
 ## Atom packages ⚛️
 	apm install atom-clock platformio-ide-terminal atom-beautify file-icons pigments color-picker atom-symfony2 highlight-selected language-generic-config php-twig atom-typescript react autoclose-html
@@ -410,10 +414,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 ## Chrome
   - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
   - [GithubXp](https://chrome.google.com/webstore/detail/github-xp/ipjbabcpngaonjaedhpfodmjaklmdfdo)
-  
-## App Store
-	mas install runcat
-
+ 
 ## DNS 🌐
 	networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
 	
