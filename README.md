@@ -400,8 +400,13 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [minimal](https://addons.mozilla.org/fr/firefox/addon/minimal-internet-experience/)
 - [i don't care about cookies](https://addons.mozilla.org/fr/firefox/addon/i-dont-care-about-cookies/)
 - [lightbeam](https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/)
+- [terms of service; didn’t read](https://addons.mozilla.org/fr/firefox/addon/terms-of-service-didnt-read/)
 
-### [Ublock](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockFilter)
+### Ublock filters
+[Ublock](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockFilter)
+
+### Youtube redirection to Invidious. Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect)
+[Youtbe redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector)
 
 ## App Store
 	mas install runcat
