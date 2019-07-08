@@ -45,8 +45,6 @@ Open a terminal and type in the osx-env-install folder
 - [MongoDB 🍃](#mongodb-)
 - [Bash 📺](#bash-)
 - [Firefox 🦊](#firefox-)
-  - [Ublock Filter](#ublock)
-  - [Redirector](#youtube-redirection-to-invidious-for-redirector-thanks-to-doronbehar)
 - [Chrome](#chrome)
 
 ## Homebrew 🍺
