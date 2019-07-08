@@ -397,6 +397,8 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [bloody vikings!](https://addons.mozilla.org/fr/firefox/addon/bloody-vikings/)
 - [tabliss](https://addons.mozilla.org/fr/firefox/addon/tabliss/?src=external-tabliss.io)
 - [minimal](https://addons.mozilla.org/fr/firefox/addon/minimal-internet-experience/)
+- [i don't care about cookies](https://addons.mozilla.org/fr/firefox/addon/i-dont-care-about-cookies/)
+- [lightbeam](https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/)
 
 ## App Store
 	mas install runcat
