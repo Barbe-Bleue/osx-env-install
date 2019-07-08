@@ -6,16 +6,8 @@ Open a terminal and type in the osx-env-install folder
 
 `./install.sh`
 
-## packages 📦
-To edit the list of package to install , edit all `.sh` file in  `packages` folder
-
-## alias 💡
-`config/bash_profile` is my personal bash config. Edit this one if you don't want to use it.
-
-## git 🚀
-`git_alias` is my personal git config. Edit this one if you don't want to use it.
-
 ## Table of Contents
+- [Configuration](#configuration)
 - [Homebrew 🍺](#homebrew-)
   - [Install Homebrew](#install-homebrew)
   - [Install Cask](#install-cask)
@@ -45,6 +37,17 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 - [Bash 📺](#bash-)
 - [Firefox 🦊](#firefox-)
 - [Chrome](#chrome)
+
+## Configuration
+
+## packages 📦
+To edit the list of package to install , edit all `.sh` file in  `packages` folder
+
+## alias 💡
+`config/bash_profile` is my personal bash config. Edit this one if you don't want to use it.
+
+## git 🚀
+`git_alias` is my personal git config. Edit this one if you don't want to use it.
 
 ## Homebrew 🍺
 
