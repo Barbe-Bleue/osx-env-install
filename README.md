@@ -395,6 +395,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 ## Firefox 🦊
 - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
   - [GAFAM blocker](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockFilter)
+  - [Youtube rules](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockRule)
 - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 - [cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 - [https everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
