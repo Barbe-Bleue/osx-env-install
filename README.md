@@ -102,11 +102,11 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 	
 ## Git 🚀
 
-`git_alias` is my personal git config. Edit this one if you don't want to use it.
-
 ### Config User
 	git config --global user.name "foo-bar"
 	git config --global user.email foo@bar.com
+
+`git_alias` is my personal git config. Edit this one if you don't want to use it.
 
 ### [Alias Git](https://github.com/barbe-bleue/osx-env-install/blob/master/config/git_alias.txt)
 		
@@ -276,9 +276,9 @@ Avec ytdl
 
 `config/bash_profile` is my personal bash config. Edit this one if you don't want to use it.
 
-#### [bash_profile](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/bash_profile.txt)
+### [Bash Profile](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/bash_profile.txt)
 
-#### inputrc
+### inputrc
 
 	set completion-ignore-case on
 	set show-all-if-ambiguous on
