@@ -43,12 +43,6 @@ Open a terminal and type in the osx-env-install folder
 ## packages 📦
 To edit the list of package to install , edit all `.sh` file in  `packages` folder
 
-## alias 💡
-`config/bash_profile` is my personal bash config. Edit this one if you don't want to use it.
-
-## git 🚀
-`git_alias` is my personal git config. Edit this one if you don't want to use it.
-
 ## Homebrew 🍺
 
 ### install homebrew
@@ -107,6 +101,8 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 	mkdir ~/Sites
 	
 ## Git 🚀
+
+`git_alias` is my personal git config. Edit this one if you don't want to use it.
 
 ### Config User
 	git config --global user.name "foo-bar"
@@ -277,6 +273,8 @@ Avec ytdl
 [dracula-theme](https://github.com/dracula/terminal-app.git)
 	
 ### alias 💡
+
+`config/bash_profile` is my personal bash config. Edit this one if you don't want to use it.
 
 #### [bash_profile](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/bash_profile.txt)
 
