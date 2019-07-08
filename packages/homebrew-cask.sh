@@ -11,7 +11,6 @@ DEV_CASKS=(
 	vscodium
 	docker
   	atom 
-	visual-studio-code 
 	sequel-pro 
 	mongodb-compass-community 
 	postman 
