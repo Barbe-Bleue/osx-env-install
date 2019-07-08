@@ -46,6 +46,7 @@ Open a terminal and type in the osx-env-install folder
 - [Bash 📺](#bash-)
 - [Firefox 🦊](#firefox-)
   - [Ublock Filter](#ublock)
+  - [Redirector](#redirector)
 
 ## Homebrew 🍺
 
