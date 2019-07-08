@@ -31,7 +31,7 @@ Open a terminal and type in the osx-env-install folder
     - [Web Dev🕸](#cask-web-dev-)
     - [Other](#other-)
 - [Atom ⚛️](#atom-packages-%EF%B8%8F)
-- [VsCode 💎](#vscode-packages-)
+- [VSCodium 💎](#vscodium-packages-)
 - [Config Mac 🖥](#config-mac-)
   - [Activer tab sur les prompts de mac](#activer-tab-sur-les-prompts-de-mac)
   - [Sites folder](#sites-folder)
@@ -76,7 +76,7 @@ Open a terminal and type in the osx-env-install folder
 	brew cask install appcleaner macdown copyq iina spectacle
 	
 #### cask web dev 🕸
-	brew cask install vscodium docker atom visual-studio-code sequel-pro mongodb-compass-community postman gas-mask iterm2 hyper upterm slack gas-mask
+	brew cask install vscodium docker atom sequel-pro mongodb-compass-community postman gas-mask iterm2 hyper upterm slack gas-mask
  	
 #### cask other 
 	brew cask install min 
@@ -86,8 +86,10 @@ Open a terminal and type in the osx-env-install folder
 	
 	apm install dracula-theme
 
-## Vscode packages 💎
-	code --install-extension bmewburn.vscode-intelephense-client; code --install-extension dracula-theme.theme-dracula; code --install-extension christian-kohler.path-intellisense; code --install-extension naumovs.color-highlight; code --install-extension PKief.material-icon-theme
+## VSCodium packages 💎
+[VSCodium Terminal command](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#how-do-i-open-vscodium-from-the-terminal)
+	
+	codium --install-extension bmewburn.vscode-intelephense-client; codium --install-extension dracula-theme.theme-dracula; codium --install-extension christian-kohler.path-intellisense; codium --install-extension naumovs.color-highlight; codium --install-extension PKief.material-icon-theme
 	
 ## Config mac 🖥
 
@@ -348,7 +350,7 @@ restart le terminal
 	
 ##### Add powerline-gitstatus color schemes to Powerline
 	
-	atom /Users/$USER/Library/Python/2.7/lib/python/site-packages/powerline/config_files/colorschemes/shell/default.json
+	codium /Users/$USER/Library/Python/2.7/lib/python/site-packages/powerline/config_files/colorschemes/shell/default.json
 	
 Ajouter ca à la suite de "attached_client" (ne pas oublier la virgule)
 
