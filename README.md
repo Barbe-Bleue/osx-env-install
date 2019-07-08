@@ -1,6 +1,6 @@
 # 🍏 osx-env-install 🖥
 
-## start 👌🏻
+## start 👌🏻🏁
 
 Open a terminal and type in the osx-env-install folder
 
