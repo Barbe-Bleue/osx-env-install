@@ -11,7 +11,7 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 
 ## start 👌🏻
 
-Open a terminal and type
+Open a terminal and type in the osx-env-install folder
 
 `./install.sh`
 
