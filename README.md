@@ -45,6 +45,7 @@ Open a terminal and type
 - [MongoDB 🍃](#mongodb-)
 - [Bash 📺](#bash-)
 - [Firefox 🦊](#firefox-)
+  - [Ublock Filter](#ublock)
 
 ## Homebrew 🍺
 
@@ -399,6 +400,8 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [minimal](https://addons.mozilla.org/fr/firefox/addon/minimal-internet-experience/)
 - [i don't care about cookies](https://addons.mozilla.org/fr/firefox/addon/i-dont-care-about-cookies/)
 - [lightbeam](https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/)
+
+### [Ublock](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockFilter)
 
 ## App Store
 	mas install runcat
