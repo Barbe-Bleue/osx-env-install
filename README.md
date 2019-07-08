@@ -7,7 +7,7 @@ Open a terminal and type in the osx-env-install folder
 `./install.sh`
 
 ## Table of Contents
-- [Configuration](#configuration)
+- [Configuration ⚙️](#configuration-)
 - [Homebrew 🍺](#homebrew-)
   - [Install Homebrew](#install-homebrew)
   - [Install Cask](#install-cask)
@@ -38,7 +38,7 @@ Open a terminal and type in the osx-env-install folder
 - [Firefox 🦊](#firefox-)
 - [Chrome](#chrome)
 
-## Configuration
+## Configuration ⚙️
 
 ## packages 📦
 To edit the list of package to install , edit all `.sh` file in  `packages` folder
