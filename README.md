@@ -394,7 +394,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## Firefox 🦊
 - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
-  - [GAFAM blocker](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockFilter)
+  - [GAFAM blocker](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockFilter) (Thanks to [nickspaargaren](https://github.com/nickspaargaren/pihole-google)
   - [Youtube rules](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockRule)
 - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 - [cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
@@ -410,7 +410,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [lightbeam](https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/)
 - [terms of service; didn’t read](https://addons.mozilla.org/fr/firefox/addon/terms-of-service-didnt-read/)
 - [redirector](https://addons.mozilla.org/fr/firefox/addon/redirector/)
-  - [youtube redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector)(Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect))
+  - [youtube redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector) (Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect))
 
 ## Chrome
   - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
