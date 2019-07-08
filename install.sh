@@ -1,3 +1,6 @@
+# @TODO script install PHP
+# @TODO script install mysql
+# @TODO script install Apache
 #!/bin/bash
 
 # homebrew packages
