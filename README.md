@@ -1,5 +1,11 @@
 # 🍎 osx-env-install 🍏
 
+## start 👌🏻
+
+Open a terminal and type in the osx-env-install folder
+
+`./install.sh`
+
 ## packages 📦
 To edit the list of package to install , edit all `.sh` file in  `packages` folder
 
@@ -8,12 +14,6 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 
 ## git 🚀
 `git_alias` is my personal git config. Edit this one if you don't want to use it.
-
-## start 👌🏻
-
-Open a terminal and type in the osx-env-install folder
-
-`./install.sh`
 
 # 🍏 MacOSX Install 🖥
 
