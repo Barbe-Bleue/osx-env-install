@@ -1,3 +1,6 @@
+# @TODO codium extension install function
+# @TODO atom extension install function
+
 function brew_install () {
 	local LIST_PACKAGE=("$@")
 	
