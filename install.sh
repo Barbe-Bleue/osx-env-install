@@ -78,6 +78,16 @@ case $input in
 	;;
 esac
 
+# other packages
+echo -e "\n${GREEN}Install homebrew other packages...${NC}"
+echo -e "${PURPLE}${OTHER_PACKAGES[@]}${NC}\n"
+read -r -p "$(echo -e Do you want ${RED}OTHER_PACKAGES${NC} ? [press enter])" input
+case $input in
+	[yY][eE][sS]|[yY]|'')
+		brew_install ${OTHER_PACKAGES[@]}
+	;;
+esac
+
 # mac osx apps
 echo -e "\n${GREEN}Install mac osx apps ${NC}"
 
