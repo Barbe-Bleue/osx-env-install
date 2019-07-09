@@ -389,6 +389,10 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 	
 ##### Restart The Terminal
 
+### Interesting App
+- [torrench](https://github.com/DasEarl/torrench)
+- [mps](https://github.com/mps-youtube/mps-youtube)
+
 ## [Oh My Zh & Zsh](https://medium.freecodecamp.org/how-to-configure-your-macos-terminal-with-zsh-like-a-pro-c0ab3f3c1156)
 
 ## Firefox 🦊
