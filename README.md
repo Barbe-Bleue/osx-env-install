@@ -16,10 +16,11 @@ Open a terminal and type in the osx-env-install folder
     - [Basic](#basic)
     - [Web Dev🕸](#web-dev-)
     - [Fun 🙀](#fun-)
+    - [Other](#other)
   - [Cask 🖥](#cask-)
     - [Basic](#cask-basic)
     - [Web Dev🕸](#cask-web-dev-)
-    - [Other](#other-)
+    - [Other](#cask-other)
   - [Mas](#mas)
 - [Atom ⚛️](#atom-packages-%EF%B8%8F)
 - [VSCodium 💎](#vscodium-packages-)
@@ -58,24 +59,27 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 ### Packages 📦
 
 #### basic
-	brew install cask htop curl ncdu wget bash-completion screenfetch imagesnap ffmpeg youtube-dl exa mas mps-youtube
+	brew install bash-completion cask curl exa ffmpeg htop imagesnap mps-youtube ncdu screenfetch wget youtube-dl   
 	
 #### web dev 🕸
-	brew install yarn composer git gpg npm
+	brew install composer git gpg npm yarn  
 	
 #### fun 🙀
-	brew install cmatrix cowsay fortune asciiquarium toilet lolcat sl ddgr
+	brew install asciiquarium cmatrix cowsay ddgr fortune lolcat sl toilet  
+
+#### other
+	brew install bower mas lynx rig s-search task fuck
 
 ### Cask 🖥
 
 #### cask basics
-	brew cask install appcleaner macdown copyq iina spectacle
+	brew cask install appcleaner copyq macdown spectacle vlc
 	
 #### cask web dev 🕸
-	brew cask install vscodium docker atom sequel-pro mongodb-compass-community postman gas-mask iterm2 hyper upterm slack gas-mask
+	brew cask install atom docker gas-mask hyper iterm2 mongodb-compass-community postman sequel-pro slack upterm vscodium
  	
 #### cask other 
-	brew cask install min 
+	brew cask install iina mmon mpv 
 
 ### Mas 	
 	mas install runcat
