@@ -1,28 +1,28 @@
 #!/bin/bash
 BASIC_CASKS=(
-  	appcleaner 
+  	appcleaner
+	copyq
 	macdown 
-	copyq 
 	spectacle
 	vlc
 )
 
 DEV_CASKS=(
-	vscodium
+	atom
 	docker
-  	atom 
-	sequel-pro 
-	mongodb-compass-community 
-	postman 
-	iterm2 
-	hyper 
-	upterm
-	slack
 	gas-mask
+	hyper
+	iterm2
+	mongodb-compass-community
+	postman
+	sequel-pro
+	slack
+	upterm
+	vscodium
 )
 
 OTHER_CASKS=(
-	min
 	iina
+	min
 	mpv
 )
