@@ -15,7 +15,7 @@ DEV_CASKS=(
 	iterm2
 	mongodb-compass-community
 	postman
-	sequel-pro
+	sequel-pro-nightly
 	slack
 	upterm
 	vscodium
