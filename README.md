@@ -418,6 +418,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [terms of service; didn’t read](https://addons.mozilla.org/fr/firefox/addon/terms-of-service-didnt-read/)
 - [redirector](https://addons.mozilla.org/fr/firefox/addon/redirector/)
   - [youtube redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector) (Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect))
+- [Carbonalyser](https://addons.mozilla.org/en-US/firefox/addon/carbonalyser/?src=search)
 
 ## Chrome
   - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
