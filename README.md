@@ -422,7 +422,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## Chrome
   - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
-  - [GithubXp](https://chrome.google.com/webstore/detail/github-xp/ipjbabcpngaonjaedhpfodmjaklmdfdo)
+  - [GithubXp](https://chrome.google.com/webstore/detail/ipjbabcpngaonjaedhpfodmjaklmdfdo/)
  
 ## DNS 🌐
 	networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
