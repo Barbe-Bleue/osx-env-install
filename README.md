@@ -419,6 +419,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [redirector](https://addons.mozilla.org/fr/firefox/addon/redirector/)
   - [youtube redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector) (Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect))
 - [carbonalyser](https://addons.mozilla.org/en-US/firefox/addon/carbonalyser/?src=search)
+- [privacy-redirect](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/?src=search)
 
 ## Chrome
   - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
