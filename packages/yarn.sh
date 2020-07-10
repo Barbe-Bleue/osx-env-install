@@ -5,7 +5,7 @@ YARN_PACKAGE=(
 	create-react-app 
 	fkill-cli # kill a process with an interface
 	mastermind-game 
-	nativefier
+	nativefier #Make any web page a desktop application 
 	newsroom # read rss flux
 	oji # make emoji with text
 	open-pip # watch video in picture in picture
