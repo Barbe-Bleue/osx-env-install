@@ -2,9 +2,10 @@
 BASIC_CASKS=(
   	appcleaner
 	copyq
-	macdown 
+	keepassxc
 	spectacle
 	vlc
+	transmission
 )
 
 DEV_CASKS=(
@@ -25,4 +26,5 @@ OTHER_CASKS=(
 	iina
 	min
 	mpv
+	macdown
 )
