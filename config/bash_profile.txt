@@ -5,8 +5,7 @@ alias gitconfig="cat ~/.gitconfig"
 alias egitconfig="open ~/.gitconfig"
 
 # alias file 📑
-alias raccourci="cat ~/.bash_profile"
-alias eraccourci="vi ~/.bash_profile"
+alias ealias="open -a TextEdit ~/.bash_profile"
 
 ## pour le bind des touches clavier
 alias input="cat ~/.inputrc"
