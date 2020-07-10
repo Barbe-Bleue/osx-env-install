@@ -2,7 +2,7 @@
 
 # git config
 alias gitconfig="cat ~/.gitconfig"
-alias egitconfig="open ~/.gitconfig"
+alias egitconfig="open -a TextEdit ~/.gitconfig"
 
 # alias file
 alias ealias="open -a TextEdit ~/.bash_profile"
