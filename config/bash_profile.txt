@@ -11,7 +11,7 @@ alias ealias="open -a TextEdit ~/.bash_profile"
 alias input="cat ~/.inputrc"
 alias einput="vi ~/.inputrc"
 
-#alias syncalias="rsync ~/.bash_profile ~/.bashrc"
+alias bash_profile_save='cp ~/.bash_profile ~/Documents/bash_profile.txt'
 
 # mac
 ## afficher ou cacher les fichiers/dossiers cachés
@@ -71,13 +71,9 @@ alias conf="cd /usr/local/etc/httpd/extra"
 # Change directory aliases
 alias home='cd ~'
 alias www="cd ~/Sites"
-alias docs='cd ~/Documents'
+alias doc='cd ~/Documents'
 alias dls='cd ~/Downloads'
-alias downloads='cd ~/Downloads'
 alias ..='cd ../'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
 
 # apps installation
 alias install-edex="cd; git clone https://github.com/GitSquared/edex-ui; cd edex-ui;  npm install ; npm run build-darwin ; cp -r dist/mac/eDEX-UI.app /Applications/ ; cd ; rm -rf edex-ui/"
