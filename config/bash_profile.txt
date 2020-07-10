@@ -16,8 +16,8 @@ alias einput="vi ~/.inputrc"
 
 # mac 🖥
 ## afficher ou cacher les fichiers/dossiers cachés
-alias finderShowHidden='defaults write com.apple.finder AppleShowAllFiles YES; sudo killall Finder'
-alias finderHideHidden='defaults write com.apple.finder AppleShowAllFiles NO; sudo killall Finder'
+alias showHidden='defaults write com.apple.finder AppleShowAllFiles YES; sudo killall Finder'
+alias hideHidden='defaults write com.apple.finder AppleShowAllFiles NO; sudo killall Finder'
 
 ## recherche de fichier🕵🏻‍♂️
 alias f.="find . -type f -name"
