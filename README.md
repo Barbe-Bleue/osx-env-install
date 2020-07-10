@@ -420,6 +420,8 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
   - [youtube redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector) (Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect))
 - [carbonalyser](https://addons.mozilla.org/en-US/firefox/addon/carbonalyser/?src=search)
 - [privacy-redirect](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/?src=search)
+- [clear-urls](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
+- DNS-over-HTTPS: https://doh-de.blahdns.com/dns-query
 
 ## Chrome
   - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
