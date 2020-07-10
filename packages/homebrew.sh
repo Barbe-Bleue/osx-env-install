@@ -7,6 +7,7 @@ BASIC_PACKAGES=(
 	ffmpeg
 	htop # activity monitor
 	imagesnap # take a picture with cam
+	mat2 #meta data remover
 	mps-youtube
 	ncdu # folder size
 	screenfetch
@@ -34,7 +35,6 @@ FUN_PACKAGES=(
 )
 
 OTHER_PACKAGES=(
-	bower # package manager
 	mas # mac app store CLI
 	lynx # terminal browser
 	rig # generate fake identity
