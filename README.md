@@ -49,9 +49,6 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 ### install homebrew
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-### install cask 
-	brew tap homebrew/cask-versions
-
 ### install mas
 	brew tap mas-cli/tap
 	brew tap-pin mas-cli/tap
@@ -73,13 +70,13 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 ### Cask 🖥
 
 #### cask basics
-	brew cask install appcleaner copyq macdown spectacle vlc
+	brew cask install appcleaner copyq keepassxc spectacle vlc
 	
 #### cask web dev 🕸
 	brew cask install atom docker gas-mask hyper iterm2 mongodb-compass-community postman sequel-pro slack upterm vscodium
  	
 #### cask other 
-	brew cask install iina mmon mpv 
+	brew cask install iina macdown mmon mpv 
 
 ### Mas 	
 	mas install runcat
