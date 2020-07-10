@@ -56,7 +56,7 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 ### Packages 📦
 
 #### basic
-	brew install bash-completion cask curl exa ffmpeg htop imagesnap mps-youtube ncdu screenfetch wget youtube-dl   
+	brew install bash-completion cask curl exa ffmpeg htop imagesnap mat2 mps-youtube ncdu screenfetch wget youtube-dl   
 	
 #### web dev 🕸
 	brew install composer git gpg npm yarn  
@@ -70,13 +70,13 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 ### Cask 🖥
 
 #### cask basics
-	brew cask install appcleaner copyq keepassxc spectacle vlc
+	brew cask install appcleaner copyq keepassxc spectacle vlc transmission
 	
 #### cask web dev 🕸
 	brew cask install atom docker gas-mask hyper iterm2 mongodb-compass-community postman sequel-pro slack upterm vscodium
  	
 #### cask other 
-	brew cask install iina macdown mmon mpv 
+	brew cask install iina macdown min mpv
 
 ### Mas 	
 	mas install runcat
