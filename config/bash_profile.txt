@@ -28,6 +28,19 @@ alias ff="find / -type f -name"
 ## grep de l'historique de commande
 alias hg="history | grep"
 
+## keepassxc-cli password
+mdp() {
+	database_path="$HOME/Documents/db.kdbx"
+	
+	if [ -n "$1" ]; then
+		if [ $1 = "ls" ]; then
+			keepassxc-cli ls "$database_path"
+		else
+			keepassxc-cli show -s "$database_path" "$1"
+		fi
+	fi
+}
+
 ## dump la liste d'application
 alias dumpapp="system_profiler SPApplicationsDataType > ~/Desktop/MyFilesTypes.txt"
 
