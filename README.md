@@ -73,10 +73,10 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 	brew cask install appcleaner copyq keepassxc spectacle vlc transmission
 	
 #### cask web dev 🕸
-	brew cask install atom docker gas-mask hyper iterm2 mongodb-compass-community postman sequel-pro slack upterm vscodium
+	brew cask install atom docker hyper iterm2 postman sequel-pro slack vscodium
  	
 #### cask other 
-	brew cask install iina macdown min mpv
+	brew cask install macdown mpv
 
 ### Mas 	
 	mas install runcat
@@ -109,7 +109,7 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 
 `git_alias` is my personal git config. Edit this one if you don't want to use it.
 
-### [Alias Git](https://github.com/barbe-bleue/osx-env-install/blob/master/config/git_alias.txt)
+### [Alias Git](https://github.com/jppaled/osx-env-install/blob/master/config/git_alias.txt)
 		
 ## SSH 🔑
 	ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
@@ -277,7 +277,7 @@ Avec ytdl
 
 `config/bash_profile` is my personal bash config. Edit this one if you don't want to use it.
 
-### [Bash Profile](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/bash_profile.txt)
+### [Bash Profile](https://raw.githubusercontent.com/jppaled/osx-env-install/master/config/bash_profile.txt)
 
 ### inputrc
 
@@ -398,8 +398,8 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 
 ## Firefox 🦊
 - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
-  - [GAFAM blocker](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockFilter) (Thanks to [nickspaargaren](https://github.com/nickspaargaren/pihole-google))
-  - [Youtube rules](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/ublockRule)
+  - [GAFAM blocker](https://raw.githubusercontent.com/jppaled/osx-env-install/master/config/ublockFilter) (Thanks to [nickspaargaren](https://github.com/nickspaargaren/pihole-google))
+  - [Youtube rules](https://raw.githubusercontent.com/jppaled/osx-env-install/master/config/ublockRule)
 - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 - [cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 - [https everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
@@ -414,7 +414,7 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 - [lightbeam](https://addons.mozilla.org/en-GB/firefox/addon/lightbeam/)
 - [terms of service; didn’t read](https://addons.mozilla.org/fr/firefox/addon/terms-of-service-didnt-read/)
 - [redirector](https://addons.mozilla.org/fr/firefox/addon/redirector/)
-  - [youtube redirection](https://raw.githubusercontent.com/barbe-bleue/osx-env-install/master/config/redirector) (Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect))
+  - [youtube redirection](https://raw.githubusercontent.com/jppaled/osx-env-install/master/config/redirector) (Thanks to [doronbehar](https://github.com/doronbehar/invidious-redirect))
 - [carbonalyser](https://addons.mozilla.org/en-US/firefox/addon/carbonalyser/?src=search)
 - [privacy-redirect](https://addons.mozilla.org/en-US/firefox/addon/privacy-redirect/?src=search)
 - [clear-urls](https://addons.mozilla.org/en-US/firefox/addon/clearurls/)
