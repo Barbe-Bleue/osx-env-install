@@ -59,7 +59,6 @@ alias restartApache="/usr/local/bin/apachectl restart"
 
 ## base de donnée
 alias startMysql="/usr/local/bin/mysql.server start"
-alias startMongo="mongod"
 
 ## hosts
 alias hostlist="cat /etc/hosts"
@@ -80,11 +79,7 @@ alias install-edex="cd; git clone https://github.com/GitSquared/edex-ui; cd edex
 
 alias install-kickthemout="brew install python3 libdnet nmap ; git clone https://github.com/k4m4/kickthemout.git /Applications/ ; cd /Applications/kickthemout ; sudo -H pip3 install -r requirements.txt"
 
-alias install-keeper="cd; git clone https://github.com/ardagedikk/keeper.git; cd keeper; yarn install; yarn build-osx; cp -r build/Keeper-darwin-x64/Keeper.app /Applications/ ; cd ; rm -rf keeper/"
-
 alias install-osxcputemp="cd; git clone https://github.com/lavoiesl/osx-cpu-temp.git; cd osx-cpu-temp; sudo make install; cd; rm -rf osx-cpu-temp"
-
-alias install-mongo="cd; wget http://downloads.mongodb.org/osx/mongodb-osx-x86_64-3.4.17.tgz"
 
 alias install-freetube="cd; git clone https://github.com/FreeTubeApp/FreeTube.git; cd FreeTube; yarn install; yarn make:mac; cp -r out/FreeTube-darwin-x64/FreeTube.app /Applications; cd; rm -rf FreeTube"
 
@@ -104,9 +99,6 @@ alias starwars="telnet towel.blinkenlights.nl"
 ## mp3 ou mp4 d'une video youtube
 alias yt-mp3="youtube-dl --extract-audio --audio-format mp3 -i"
 alias yt-mp4="youtube-dl -f 'bestvideo[ext=mp4]+bestaudio[ext=m4a]/mp4' -i"
-
-## % d'espace que prend un dossier et/ou des fichiers
-alias space="ncdu"
 
 ## affiche la date toute les secondes
 alias dateColor="while true; do echo '$(date '+%D %T' | toilet -f term -F border --gay)'; sleep 1; done"
