@@ -9,8 +9,6 @@ source ./packages/homebrew.sh
 source ./packages/homebrew-cask.sh
 # yarn packages
 source ./packages/yarn.sh
-# atom packages
-source ./packages/atom.sh
 # code package
 source ./packages/code.sh
 # add functions
@@ -31,19 +29,12 @@ echo -e "${GREEN}Update homebrew...${NC}"
 brew update
 
 # cask and mas
-echo -e "${GREEN}Install cask and mas...${NC}"
+echo -e "${GREEN}Install cask...${NC}"
 
 # install mac osx app 
 if test ! $(which cask); then
 	echo -e "${GREEN}Install cask-version...${NC}"
 	brew tap homebrew/cask-versions
-fi
-
-# install macapp from the mac app store
-if test ! $(which mas); then
-	echo -e "${GREEN}Install mas...${NC}"
-	brew tap mas-cli/tap
-	brew tap-pin mas-cli/tap
 fi
 
 echo -e "\n${GREEN}Install homebrew packages...${NC}"
@@ -119,19 +110,6 @@ case $input in
 	;;
 esac
 
-# atom packages
-if test $(which atom); then
-	echo -e "${PURPLE}${ATOM_PACKAGE[@]}${NC}\n"
-	read -r -p "$(echo -e Do you want super ${GREEN}atom packages${NC} ? [press enter])" input
-	case $input in
-		[yY][eE][sS]|[yY]|'')
-			echo -e "${ORANGE}${ATOM_PACKAGE[@]}${NC}"
-	 		echo -e "${GREEN}Install atom packages...${NC}\n"
-	 		apm install ${ATOM_PACKAGE[@]}
-		;;
-	esac
-fi
-
 # vscode packages
 if test $(which code); then
 	echo -e "${PURPLE}${CODE_PACKAGE[@]}${NC}\n"
@@ -142,17 +120,6 @@ if test $(which code); then
 	 		echo -e "${GREEN}Install vscode packages...${NC}\n"
 	 		code --install-extension ${CODE_PACKAGE[@]}
 		;;
-	esac
-fi
-
-# dracula theme for atom
-if test $(which atom); then
-  read -r -p "$(echo -e Do you want ${PURPLE}dracula${NC} theme for atom ? [press enter])" input
-	case $input in
-		[yY][eE][sS]|[yY]|'')
-	 		echo -e "${PURPLE}Install atom dracula theme... mouhahaha${NC}\n"
-	 		apm install dracula-theme
-	 	;;
 	esac
 fi
 
