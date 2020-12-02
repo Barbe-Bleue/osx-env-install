@@ -49,10 +49,6 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 ### install homebrew
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-### install mas
-	brew tap mas-cli/tap
-	brew tap-pin mas-cli/tap
-	
 ### Packages 📦
 
 #### basic
@@ -65,7 +61,7 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 	brew install asciiquarium cmatrix cowsay ddgr fortune lolcat sl toilet  
 
 #### other
-	brew install bower mas lynx rig s-search task fuck
+	brew install lynx rig s-search task fuck
 
 ### Cask 🖥
 
@@ -73,18 +69,10 @@ To edit the list of package to install , edit all `.sh` file in  `packages` fold
 	brew cask install appcleaner copyq keepassxc spectacle vlc transmission
 	
 #### cask web dev 🕸
-	brew cask install atom docker hyper iterm2 postman sequel-pro slack vscodium
+	brew cask install docker iterm2 postman sequel-pro slack vscodium
  	
 #### cask other 
 	brew cask install macdown mpv
-
-### Mas 	
-	mas install runcat
-
-## Atom packages ⚛️
-	apm install atom-clock platformio-ide-terminal atom-beautify file-icons pigments color-picker atom-symfony2 highlight-selected language-generic-config php-twig atom-typescript react autoclose-html
-	
-	apm install dracula-theme
 
 ## VSCodium packages 💎
 [VSCodium Terminal command](https://github.com/VSCodium/vscodium/blob/master/DOCS.md#how-do-i-open-vscodium-from-the-terminal)
