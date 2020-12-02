@@ -1,22 +1,74 @@
 {
-    "createdBy": "Redirector v3.2.1",
-    "createdAt": "2019-07-07T06:22:56.000Z",
+    "createdBy": "Redirector v3.5.3",
+    "createdAt": "2020-12-02T21:04:28.900Z",
     "redirects": [
         {
-            "description": "YouTube -> Invidio.us",
+            "description": "YouTube -> https://invidious.fdn.fr/",
             "exampleUrl": "https://www.youtube.com/embed/9HimzZ6QG2o",
-            "exampleResult": "https://invidious.snopyta.org/embed/9HimzZ6QG2o",
+            "exampleResult": "https://invidious.snopyta.com/$3",
             "error": null,
-            "includePattern": "(.*\\.)youtu(be.com|\\.be)/(.*)",
+            "includePattern": "https://www.youtube.com/*",
             "excludePattern": "",
             "patternDesc": "Redirect Youtube videos to Invidious",
-            "redirectUrl": "https://invidious.snopyta.org/$3",
-            "patternType": "R",
+            "redirectUrl": "https://invidious.fdn.fr/$3",
+            "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
+            "grouped": false,
             "appliesTo": [
                 "main_frame",
                 "sub_frame"
+            ]
+        },
+        {
+            "description": "Instagram to bibliogram",
+            "exampleUrl": "https://www.instagram.com/instagram/",
+            "exampleResult": "https://bibliogram.art/u/instagram/",
+            "error": null,
+            "includePattern": "https://www.instagram.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://bibliogram.art/u/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "Twitter to nitter",
+            "exampleUrl": "https://twitter.com/Twitter",
+            "exampleResult": "https://nitter.net/Twitter",
+            "error": null,
+            "includePattern": "https://twitter.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://nitter.net/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
+            ]
+        },
+        {
+            "description": "reddit to old reddit",
+            "exampleUrl": "https://www.reddit.com/r/privacy/new",
+            "exampleResult": "https://old.reddit.com/r/privacy/new",
+            "error": null,
+            "includePattern": "https://www.reddit.com/*",
+            "excludePattern": "",
+            "patternDesc": "",
+            "redirectUrl": "https://old.reddit.com/$1",
+            "patternType": "W",
+            "processMatches": "noProcessing",
+            "disabled": false,
+            "grouped": false,
+            "appliesTo": [
+                "main_frame"
             ]
         }
     ]
