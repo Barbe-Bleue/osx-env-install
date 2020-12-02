@@ -9,9 +9,7 @@ BASIC_CASKS=(
 )
 
 DEV_CASKS=(
-	atom
 	docker
-	hyper
 	iterm2
 	postman
 	sequel-pro-nightly
