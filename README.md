@@ -387,7 +387,6 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 ## Firefox 🦊
 - [ublock origin](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin)
   - [GAFAM blocker](https://raw.githubusercontent.com/jppaled/osx-env-install/master/config/ublockFilter) (Thanks to [nickspaargaren](https://github.com/nickspaargaren/pihole-google))
-  - [Youtube rules](https://raw.githubusercontent.com/jppaled/osx-env-install/master/config/ublockRule)
 - [privacy badger](https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/)
 - [cookie autodelete](https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/)
 - [https everywhere](https://addons.mozilla.org/en-US/firefox/addon/https-everywhere/)
@@ -411,8 +410,3 @@ ajouter ca dans le segment "left" (ne pas oublier la virgule)
 ## Chrome
   - [facebook-post-manager](https://chrome.google.com/webstore/detail/facebook-post-manager/ljfidlkcmdmmibngdfikhffffdmphjae)
   - [GithubXp](https://chrome.google.com/webstore/detail/ipjbabcpngaonjaedhpfodmjaklmdfdo/)
- 
-## DNS 🌐
-	networksetup -setdnsservers Wi-Fi 1.1.1.1 1.0.0.1
-	
-
