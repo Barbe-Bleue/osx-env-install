@@ -35,7 +35,6 @@ FUN_PACKAGES=(
 )
 
 OTHER_PACKAGES=(
-	mas # mac app store CLI
 	lynx # terminal browser
 	rig # generate fake identity
 	s-search # search on internet
