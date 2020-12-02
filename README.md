@@ -22,7 +22,6 @@ Open a terminal and type in the osx-env-install folder
     - [Web Dev🕸](#cask-web-dev-)
     - [Other](#cask-other)
   - [Mas](#mas)
-- [Atom ⚛️](#atom-packages-%EF%B8%8F)
 - [VSCodium 💎](#vscodium-packages-)
 - [Config Mac 🖥](#config-mac-)
   - [Activer tab sur les prompts de mac](#activer-tab-sur-les-prompts-de-mac)
