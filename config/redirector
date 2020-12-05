@@ -55,14 +55,14 @@
             ]
         },
         {
-            "description": "reddit to old reddit",
+            "description": "reddit to teddit",
             "exampleUrl": "https://www.reddit.com/r/privacy/new",
-            "exampleResult": "https://old.reddit.com/r/privacy/new",
+            "exampleResult": "https://teddit.net/r/privacy/new",
             "error": null,
             "includePattern": "https://www.reddit.com/*",
             "excludePattern": "",
             "patternDesc": "",
-            "redirectUrl": "https://old.reddit.com/$1",
+            "redirectUrl": "https://teddit.net/$1",
             "patternType": "W",
             "processMatches": "noProcessing",
             "disabled": false,
